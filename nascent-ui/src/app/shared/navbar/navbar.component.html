@@ -1,0 +1,104 @@
+<nav id="navbar-main"
+  class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+  <div class="container">
+    <a class="navbar-brand mr-lg-5" [routerLink]="['/landing']">
+      Nascent Technologies
+    </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <a [routerLink]="['/landing']">
+              <img src="./assets/img/brand/blue.png">
+            </a>
+          </div>
+          <div class="col-6 collapse-close">
+            <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
+              [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link no-caret" role="button">
+            <span class="nav-link-inner--text">About Us</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-bold-down"></i>
+            <span class="nav-link-inner--text">Services</span>
+          </a>
+          <div class="dropdown-menu-xl dropdown-menu">
+            <div class="dropdown-menu-inner">
+              <a routerLinkActive="active" [routerLink]="['documentation/tutorial']"
+                class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                  <i class="ni ni-bold-right"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h6 class="heading text-primary mb-md-1">IT Consulting Services</h6>
+                  <p class="description d-none d-md-inline-block mb-0">Expert IT advice and solutions for optimizing business technology performance.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" [routerLink]="['documentation/colors']"
+                class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                  <i class="ni ni-bold-right"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h6 class="heading text-primary mb-md-1">IT Project Services</h6>
+                  <p class="description d-none d-md-inline-block mb-0">LComprehensive support for planning, executing, and managing successful IT projects.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" [routerLink]="['documentation/alerts']"
+                class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                  <i class="ni ni-bold-right"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-warning mb-md-1">GIS Services</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Geographic Information System (GIS), is a tool used to capture, store, analyse and manage mapping data.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link no-caret" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Support</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-bold-down"></i>
+            <span class="nav-link-inner--text">Our Catalogue</span>
+          </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/landing']" class="dropdown-item">Our Portfolio</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link no-caret" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Careers</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link no-caret" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Contact Us</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
