@@ -1,7 +1,7 @@
 <nav id="navbar-main"
   class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
-    <a class="navbar-brand mr-lg-5" [routerLink]="['/landing']">
+    <a class="navbar-brand mr-lg-5" [routerLink]="['/home']">
       Nascent Technologies
     </a>
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
@@ -13,7 +13,7 @@
         <div class="row">
           <div class="col-6 collapse-brand">
             <a [routerLink]="['/landing']">
-              <img src="./assets/img/brand/blue.png">
+              <img src="./assets/img/brand/logo-wt-1.png">
             </a>
           </div>
           <div class="col-6 collapse-close">
@@ -27,7 +27,7 @@
       </div>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
         <li class="nav-item">
-          <a class="nav-link no-caret" role="button">
+          <a class="nav-link no-caret" role="button" [routerLink]="['/about-us']">
             <span class="nav-link-inner--text">About Us</span>
           </a>
         </li>
