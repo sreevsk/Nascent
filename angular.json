@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "argon-design-system-angular": {
-      "root": "",
+      "root": ".",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
@@ -28,7 +28,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/scss/argon.scss"
+              "src/assets/scss/argon.scss",
+              "node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           },
