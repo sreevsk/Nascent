@@ -36,42 +36,10 @@
             <i class="ni ni-bold-down"></i>
             <span class="nav-link-inner--text">Services</span>
           </a>
-          <div class="dropdown-menu-xl dropdown-menu">
-            <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['documentation/tutorial']"
-                class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-bold-right"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">IT Consulting Services</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Expert IT advice and solutions for optimizing
-                    business technology performance.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['documentation/colors']"
-                class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                  <i class="ni ni-bold-right"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">IT Project Services</h6>
-                  <p class="description d-none d-md-inline-block mb-0">LComprehensive support for planning, executing,
-                    and managing successful IT projects.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['documentation/alerts']"
-                class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <i class="ni ni-bold-right"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">GIS Services</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Geographic Information System (GIS), is a tool
-                    used to capture, store, analyse and manage mapping data.</p>
-                </div>
-              </a>
-            </div>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/landing']" class="shadow-lg--hover dropdown-item">IT Consulting Services</a>
+            <a [routerLink]="['/landing']" class="shadow-lg--hover dropdown-item">IT Project Services</a>
+            <a [routerLink]="['/landing']" class="shadow-lg--hover dropdown-item">GIS Services</a>
           </div>
         </li>
         <li class="nav-item">
@@ -85,26 +53,10 @@
             <i class="ni ni-bold-down"></i>
             <span class="nav-link-inner--text">Our Catalogue</span>
           </a>
-          <div class="dropdown-menu-xl dropdown-menu">
-            <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['documentation/tutorial']"
-                class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-bold-right"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Our Portfolio</h6>
-                  <p class="description d-none d-md-inline-block mb-0">A Showcase of Success.</p>
-                </div>
-              </a>
-            </div>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/landing']" class="shadow-lg--hover dropdown-item">Our Portfolio</a>
+            <a [routerLink]="['/landing']" class="shadow-lg--hover dropdown-item">Our Jobs</a>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link no-caret" role="button">
-            <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner--text">Careers</span>
-          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link no-caret" role="button">
