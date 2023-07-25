@@ -1,0 +1,89 @@
+<main>
+    <div class="position-relative">
+        <!-- shape Hero -->
+        <section class="section section-lg section-shaped pb-250">
+            <div class="shape shape-style-1 shape-primary"
+                style="filter: brightness(0.5);background-image: url('assets/img/theme/nsc-tech-serv1.jpg');background-size: cover; background-position: center center;">
+            </div>
+            <!-- SVG separator -->
+            <div class="separator separator-bottom separator-skew">
+                <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+                </svg>
+            </div>
+        </section>
+    </div>
+
+    <section class="section section-lg pt-lg-0 mt--200">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="row row-grid">
+                        <div data-aos="zoom-out" class="col-lg-12">
+                            <div class="card card-lift--hover shadow border-0">
+                                <div class="card-header">
+                                    <h2 class="text-primary justify-content-center">Tech Support</h2>
+                                </div>
+                                <div class="card-body">
+                                    <p class="ns-fs-11 mt-0">Indeed, IT Support and IT Projects keep companies operating
+                                        and
+                                        move your business forward.</p>
+                                    <p class="ns-fs-11 mt-0">For this reason, an IT Services Company is a VERY valuable
+                                        part of
+                                        the modern business team.</p>
+                                    <p class="ns-fs-11 mt-0">Whether networking the new office location, replacing that
+                                        old SQL
+                                        Server, or
+                                        upgrading desktops to the newest version of Windows, Tech Support is there.
+                                        That’s what we do.
+                                    </p>
+                                    <div class="pl-lg pr-lg pt-4 pb-5">
+                                        <div *ngFor="let item of supportItems" data-aos="zoom-in">
+                                            <div class="card card-lift--hover shadow border-0 p-3">
+                                                <div class="icon icon-shape icon-shape-primary rounded-circle">
+                                                    <i class="ni ni-bold-right"></i>
+                                                </div>
+                                                <span class="ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
+                                                    {{ item.text }} </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section pb-0 bg-gradient-primary">
+        <div class="container">
+            <div class="d-flex px-3">
+                <div>
+                    <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                        <i class="ni ni-building text-primary"></i>
+                    </div>
+                </div>
+                <div class="pl-4 pb-4">
+                    <h4 class="display-3 text-white">OPERATIONAL TEAM SUPPORT</h4>
+                    <p class="text-white ns-fs-11">In today’s competitive environment, you face ever-increasing
+                        demands from your business. However, if you are like many other IT organizations, your
+                        critical IT resources are consumed with day-to-day operations – or you don’t have the
+                        engineering skills needed to deal with frequent changes that span complex,
+                        interconnected technologies.
+                        With NascentTechnologies Operate Services, you receive high-touch operational support
+                        from a trusted partner – freeing your resources to drive innovation.</p>
+                </div>
+            </div>
+        </div>
+        <!-- SVG separator -->
+        <div class="separator separator-bottom separator-skew zindex-100">
+            <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+        </div>
+    </section>
+</main>
