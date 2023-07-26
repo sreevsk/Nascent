@@ -12,6 +12,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { SupportComponent } from './support/support.component';
+import { OurPortfolioComponent } from './our-portfolio/our-portfolio.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { SupportComponent } from './support/support.component';
     AboutUsComponent,
     ContactUsComponent,
     SupportComponent,
+    OurPortfolioComponent,
   ],
   imports: [
     BrowserModule,

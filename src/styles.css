@@ -18,3 +18,13 @@ body {
 .display-inline {
     display: inline;
 }
+
+.mt--50 {
+    margin-top: -50px;
+}
+
+.header-icon-title {
+    position: fixed;
+    display: inline;
+    margin-top: -2px;
+}

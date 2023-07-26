@@ -15,6 +15,3 @@ export class SupportComponent implements OnInit {
 
 }
 
-interface SupportItem {
-  text: string;
-}
