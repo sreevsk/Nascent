@@ -23,7 +23,18 @@
                         <div data-aos="zoom-out" class="col-lg-12">
                             <div class="card card-lift--hover shadow border-0">
                                 <div class="card-header">
-                                    <h2 class="text-primary justify-content-center">Tech Support</h2>
+                                    <div>
+                                        <span
+                                            class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                            <i class="fa fa-laptop"></i>
+                                        </span>
+                                        <div class="header-icon-title">
+                                            <h2 class="display-3 text-primary pl-2">Tech Support</h2>
+                                        </div>
+                                    </div>
+                                    <h4 class="text-primary justify-content-center pt-3 pl-1">We Have the Tech Support
+                                        Pros
+                                        You Need </h4>
                                 </div>
                                 <div class="card-body">
                                     <p class="ns-fs-11 mt-0">Indeed, IT Support and IT Projects keep companies operating
@@ -38,15 +49,29 @@
                                         upgrading desktops to the newest version of Windows, Tech Support is there.
                                         That’s what we do.
                                     </p>
-                                    <div class="pl-lg pr-lg pt-4 pb-5">
-                                        <div *ngFor="let item of supportItems" data-aos="zoom-in">
-                                            <div class="card card-lift--hover shadow border-0 p-3">
-                                                <div class="icon icon-shape icon-shape-primary rounded-circle">
-                                                    <i class="ni ni-bold-right"></i>
+                                    <div class="pl-3 pr-3 pt-4 pb-1">
+                                        <div *ngFor="let item of supportItems.slice(0, supportItems.length / 2);let i = index"
+                                            data-aos="zoom-in" class="row pb-2">
+                                            <div class="col-lg-6">
+                                                <div class="card card-lift--hover shadow border-0 p-2">
+                                                    <div class="icon icon-shape icon-shape-primary rounded-circle">
+                                                        <i class="ni ni-bold-right"></i>
+                                                    </div>
+                                                    <span class="ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
+                                                        {{ supportItems[i].text }} </span>
                                                 </div>
-                                                <span class="ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
-                                                    {{ item.text }} </span>
                                             </div>
+                                            <ng-container *ngIf="supportItems[i + 1]">
+                                                <div class="col-lg-6">
+                                                    <div class="card card-lift--hover shadow border-0 p-2">
+                                                        <div class="icon icon-shape icon-shape-primary rounded-circle">
+                                                            <i class="ni ni-bold-right"></i>
+                                                        </div>
+                                                        <span class="ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
+                                                            {{ supportItems[i+1].text }} </span>
+                                                    </div>
+                                                </div>
+                                            </ng-container>
                                         </div>
                                     </div>
                                 </div>
@@ -58,16 +83,19 @@
         </div>
     </section>
 
-    <section class="section pb-0 bg-gradient-primary">
+    <section class="section pb-lg bg-gradient-primary">
         <div class="container">
-            <div class="d-flex px-3">
-                <div>
-                    <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                        <i class="ni ni-building text-primary"></i>
+            <div data-aos="zoom-out" class="px-3">
+                <div class="pb-3">
+                    <span class="icon icon-shape bg-gradient-white shadow rounded-circle">
+                        <i class="fa fa-handshake-o"></i>
+                    </span>
+                    <div class="header-icon-title">
+                        <h2 class="display-3 pl-2 text-white">Operational Team Support</h2>
                     </div>
                 </div>
-                <div class="pl-4 pb-4">
-                    <h4 class="display-3 text-white">OPERATIONAL TEAM SUPPORT</h4>
+
+                <div class="pb-4">
                     <p class="text-white ns-fs-11">In today’s competitive environment, you face ever-increasing
                         demands from your business. However, if you are like many other IT organizations, your
                         critical IT resources are consumed with day-to-day operations – or you don’t have the
@@ -75,6 +103,229 @@
                         interconnected technologies.
                         With NascentTechnologies Operate Services, you receive high-touch operational support
                         from a trusted partner – freeing your resources to drive innovation.</p>
+                </div>
+                <div class="row">
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
+                                <i class="fa fa-comment"></i>
+                            </span>
+                        </div>
+                        <h5 class="text-white">Unified Communications</h5>
+                    </div>
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
+                                <i class="fa fa-phone"></i>
+                            </span>
+                        </div>
+                        <h5 class="text-white">Contact Center</h5>
+                    </div>
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
+                                <i class="fa fa-server"></i>
+                            </span>
+                        </div>
+                        <h5 class="text-white">Server Management</h5>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
+                                <i class="fa fa-sitemap"></i>
+                            </span>
+                        </div>
+                        <h5 class="text-white">Networking</h5>
+                    </div>
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
+                                <i class="fa fa-lock"></i>
+                            </span>
+                        </div>
+                        <h5 class="text-white">Security</h5>
+                    </div>
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
+                                <i class="fa fa-server"></i>
+                            </span>
+                        </div>
+                        <h5 class="text-white">Data Center</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div data-aos="zoom-out" class="row row-grid align-items-center">
+                <div class="col-md-12 order-md-1 ">
+                    <div class="pr-md-5 pt-5">
+                        <h3 class="text-white">Quality based service delivery methodology built on best practices gained
+                            from ITIL
+                            framework for service operations and more than two decades of service delivery</h3>
+                    </div>
+                    <div class="row pt-5">
+                        <div data-aos="zoom-in" class="col-lg-4">
+                            <div class="card card-lift--hover shadow border-0 height-100">
+                                <div class="card-body py-5">
+                                    <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                                        <i class="fa fa-exclamation-triangle"></i>
+                                    </div>
+                                    <h6 class="text-primary text-uppercase">Incident management</h6>
+                                    <p class="ns-fs-11 description mt-3">Continuous monitoring of unplanned
+                                        interruptions by
+                                        our support staff who follow defined resolutions, escalations or SoP’s to
+                                        quickly
+                                        restore your service operations back to normal.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="col-lg-4">
+                            <div class="card card-lift--hover shadow border-0 height-100">
+                                <div class="card-body py-5">
+                                    <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                                        <i class="fa fa-puzzle-piece"></i>
+                                    </div>
+                                    <h6 class="text-primary text-uppercase">Problem management</h6>
+                                    <p class="ns-fs-11 description mt-3">Move a step beyond incident management by
+                                        engaging
+                                        our experienced technicians who proactively identify the root cause of
+                                        incidents,
+                                        perform trend analysis and act to reduce incident recurrence.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="col-lg-4">
+                            <div class="card card-lift--hover shadow border-0 height-100">
+                                <div class="card-body py-5">
+                                    <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <h6 class="text-primary text-uppercase">Helpdesk services</h6>
+                                    <p class="ns-fs-11 description mt-3">Our people are at the heart of our support
+                                        services. They are a perfect blend of technical and support skills who love to
+                                        deliver high-quality customer care.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-lg-sm">
+                        <div data-aos="zoom-in" class="col-lg-4">
+                            <div class="card card-lift--hover shadow border-0 height-100">
+                                <div class="card-body py-5">
+                                    <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                                        <i class="fa fa-server"></i>
+                                    </div>
+                                    <h6 class="text-primary text-uppercase">Server management</h6>
+                                    <p class="ns-fs-11 description mt-3">Linux or Windows, Vmware or Hyper-V – right
+                                        from server hardening to optimization; our Level 3 industry certified and
+                                        experienced techies are the best insurance for your servers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="col-lg-4">
+                            <div class="card card-lift--hover shadow border-0 height-100">
+                                <div class="card-body py-5">
+                                    <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                                        <i class="fa fa-database"></i>
+                                    </div>
+                                    <h6 class="text-primary text-uppercase">Database administration</h6>
+                                    <p class="ns-fs-11 description mt-3">Our expert DBA team on Oracle, MySQL and
+                                        Microsoft platforms take complete responsibility for the functionality,
+                                        availability, security and performance of your database environment.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="col-lg-4">
+                            <div class="card card-lift--hover shadow border-0 height-100">
+                                <div class="card-body py-5">
+                                    <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                                        <i class="fa fa-shield"></i>
+                                    </div>
+                                    <h6 class="text-primary text-uppercase">Network and firewall</h6>
+                                    <p class="ns-fs-11 description mt-3">Industry certified network and IT security
+                                        technicians track and monitor devices like routers, switches, firewalls, etc.
+                                        for proper operations through our Network Operations Centre. Notifications and
+                                        remedy follow when faults occur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SVG separator -->
+        <div class="separator separator-bottom separator-skew zindex-100">
+            <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+        </div>
+    </section>
+
+    <section class="section pb-4">
+        <div class="container">
+            <div data-aos="zoom-out" class="px-3">
+                <div class="pb-3">
+                    <span class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                        <i class="fa fa-life-ring"></i>
+                    </span>
+                    <div class="header-icon-title">
+                        <h2 class="display-3 text-primary pl-2">Monitoring Team Support</h2>
+                    </div>
+                </div>
+
+                <div class="pb-4">
+                    <p class=" ns-fs-11">Like many IT operations teams, you don’t lack monitoring. In fact,
+                        the opposite is true—getting too many irrelevant events can drown out meaningful information. So
+                        troubleshooting eats up too much of your team’s time. </p>
+                </div>
+                <div class="row">
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i class="fa fa-comment"></i>
+                            </span>
+                        </div>
+                        <h5>Application Monitoring </h5>
+                    </div>
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i class="fa fa-phone"></i>
+                            </span>
+                        </div>
+                        <h5>Hardware Monitoring
+                        </h5>
+                    </div>
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i class="fa fa-server"></i>
+                            </span>
+                        </div>
+                        <h5>Network Monitoring</h5>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i class="fa fa-sitemap"></i>
+                            </span>
+                        </div>
+                        <h5>Server Monitoring</h5>
+                    </div>
+                    <div class="col-4 position-relative text-center">
+                        <div class="pb-3">
+                            <span class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i class="fa fa-lock"></i>
+                            </span>
+                        </div>
+                        <h5>Cloud Monitoring</h5>
+                    </div>
                 </div>
             </div>
         </div>

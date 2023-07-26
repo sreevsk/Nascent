@@ -53,7 +53,7 @@ export class AppComponent implements OnInit {
         lastScrollTop = st;
     };
     ngOnInit() {
-        AOS.init();
+        AOS.init({once: true});
         var navbar: HTMLElement = this.element.nativeElement.children[0].children[0];
         this._router = this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((event: NavigationEnd) => {
             if (window.outerWidth > 991) {
