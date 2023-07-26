@@ -13,6 +13,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { SupportComponent } from './support/support.component';
 import { OurPortfolioComponent } from './our-portfolio/our-portfolio.component';
+import { ItConsultingComponent } from './it-consulting/it-consulting.component';
+import { GisServicesComponent } from './gis-services/gis-services.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { OurPortfolioComponent } from './our-portfolio/our-portfolio.component';
     ContactUsComponent,
     SupportComponent,
     OurPortfolioComponent,
+    ItConsultingComponent,
+    GisServicesComponent,
   ],
   imports: [
     BrowserModule,
