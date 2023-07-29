@@ -78,7 +78,7 @@
                   <p class="ns-fs-11 description mt-3">NascentTechnologies provides its clients full-time support in
                     terms of
                     maintaining all up-dates, security features, anti-viruses and constant monitoring.</p>
-                  <a href="javascript:void(0)" class="btn btn-warning mt-4">Learn more</a>
+                  <a href="javascript:void(0)" class="btn btn-warning mt-4"  [routerLink]="['/support']">Learn more</a>
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@
               the gateway or the one-stop service and solution provider – a most unique platform for upcoming projects
               and the end solution to staffing requirements.</p>
             <div class="btn-wrapper">
-              <a href="#" class="btn btn-info btn-icon mb-3 mb-sm-0">
+              <a href="#" class="btn btn-info btn-icon mb-3 mb-sm-0" [routerLink]="['/about-us']">
                 <span class="btn-inner--icon"><i class="fa fa-info-circle fa-lg"></i></span>
                 <span class="btn-inner--text">About Us</span>
               </a>
@@ -316,12 +316,12 @@
     </div>
   </section>
 
-  <section class="section section-lg bg-gradient-default">
+  <section class="section section-lg bg-gradient-primary">
     <div data-aos="zoom-out" class="container pb-300">
       <div class="row text-center justify-content-center">
-        <div class="col-lg-10">
+        <div class="col-lg-12">
           <h2 class="display-3 text-white">Consulting</h2>
-          <p class="lead text-white ns-fs-11">Nascent Technologies understands the growing need of employment and the
+          <p class="lead text-white ns-fs-11 text-left">Nascent Technologies understands the growing need of employment and the
             choices of
             Candidates when it comes to choosing and picking up a Professional Career; Nascent Technologies is open and
             has no restrictions related to or subject to any territorial limitations or other wise and widely assist all
@@ -336,7 +336,7 @@
         </div>
       </div>
       <div class="row row-grid mt-5">
-        <div data-aos="zoom-out" data-aos-delay="100" class="col-lg-4">
+        <div data-aos="zoom-out" data-aos-delay="100" class="col-lg-6">
           <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
             <i class="fa fa-briefcase"></i>
           </div>
@@ -348,7 +348,7 @@
             These are usually full-time positions with benefits, though sometimes they are used to fill part-time
             positions as well.</p>
         </div>
-        <div data-aos="zoom-out" data-aos-delay="250" class="col-lg-4">
+        <div data-aos="zoom-out" data-aos-delay="250" class="col-lg-6">
           <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
             <i class="fa fa-file-text-o"></i>
           </div>
@@ -360,19 +360,10 @@
             In turn, the individual can showcase his or her skills, cultural fit, and work ethic prior to a formal offer
             of employment. Our clients consider this approach an invaluable “working interview”.</p>
         </div>
-        <div data-aos="zoom-out" data-aos-delay="350" class="col-lg-4">
-          <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-            <i class="fa fa-clock-o"></i>
-          </div>
-          <h5 class="text-white mt-3">Temp hire</h5>
-          <p class="text-white mt-3">Our Temp-to-Hire Program lets you bring a selected candidate into your work
-            environment for on-the-job performance evaluation. The candidate works on the temporary assignment on our
-            payroll while you determine there’s a good fit. If you decide to hire our associate, we will work with you
-            on a prorated fee structure.</p>
-        </div>
+
       </div>
       <div data-aos="zoom-out" class="row row-grid mt-5">
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
             <i class="fa fa-globe"></i>
           </div>
@@ -381,6 +372,16 @@
             by yourself or letting us do it for you,” either way, in this model, our consultants work for you from our
             office. Recommended for projects with well-defined goals and deliverables, our offshore staffing model
             optimizes cost while providing state-of-the-art services through our offshore development facilities.</p>
+        </div>
+        <div data-aos="zoom-out" data-aos-delay="350" class="col-lg-6">
+          <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+            <i class="fa fa-clock-o"></i>
+          </div>
+          <h5 class="text-white mt-3">Temp hire</h5>
+          <p class="text-white mt-3">Our Temp-to-Hire Program lets you bring a selected candidate into your work
+            environment for on-the-job performance evaluation. The candidate works on the temporary assignment on our
+            payroll while you determine there’s a good fit. If you decide to hire our associate, we will work with you
+            on a prorated fee structure.</p>
         </div>
       </div>
     </div>
@@ -392,7 +393,7 @@
       </svg>
     </div>
   </section>
-  
+
   <section class="section section-lg pt-lg-0 section-contact-us">
     <div class="container">
       <div data-aos="zoom-out" class="row justify-content-center mt--300">
