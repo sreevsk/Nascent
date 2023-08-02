@@ -50,25 +50,24 @@
                                         That’s what we do.
                                     </p>
                                     <div class="pl-3 pr-3 pt-4 pb-1">
-                                        <div *ngFor="let item of supportItems.slice(0, supportItems.length / 2);let i = index"
-                                            data-aos="zoom-in" class="row pb-2">
+                                        <div *ngFor="let item of customArray" data-aos="zoom-in" class="row pb-2">
                                             <div class="col-lg-6">
                                                 <div class="card card-lift--hover shadow border-0 p-2">
                                                     <div class="icon icon-shape icon-shape-primary rounded-circle">
                                                         <i class="ni ni-bold-right"></i>
                                                     </div>
                                                     <span class="ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
-                                                        {{ supportItems[i].text }} </span>
+                                                        {{ supportItems[item].text }} </span>
                                                 </div>
                                             </div>
-                                            <ng-container *ngIf="supportItems[i + 1]">
+                                            <ng-container *ngIf="supportItems[item + 1]">
                                                 <div class="col-lg-6">
                                                     <div class="card card-lift--hover shadow border-0 p-2">
                                                         <div class="icon icon-shape icon-shape-primary rounded-circle">
                                                             <i class="ni ni-bold-right"></i>
                                                         </div>
                                                         <span class="ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
-                                                            {{ supportItems[i+1].text }} </span>
+                                                            {{ supportItems[item+1].text }} </span>
                                                     </div>
                                                 </div>
                                             </ng-container>
@@ -162,7 +161,8 @@
             <div data-aos="zoom-out" class="row row-grid align-items-center">
                 <div class="col-md-12 order-md-1 ">
                     <div class="pr-md-5 pt-5">
-                        <h3 class="text-white ns-fs-11">Quality based service delivery methodology built on best practices gained
+                        <h3 class="text-white ns-fs-11">Quality based service delivery methodology built on best
+                            practices gained
                             from ITIL
                             framework for service operations and more than two decades of service delivery</h3>
                     </div>

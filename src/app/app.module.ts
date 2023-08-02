@@ -15,6 +15,10 @@ import { SupportComponent } from './support/support.component';
 import { OurPortfolioComponent } from './our-portfolio/our-portfolio.component';
 import { ItConsultingComponent } from './it-consulting/it-consulting.component';
 import { GisServicesComponent } from './gis-services/gis-services.component';
+import { OurJobsComponent } from './our-jobs/our-jobs.component';
+import { JobInfoComponent } from './job-info/job-info.component';
+import { SharedDataService } from './shared-data.service';
+import { ItProjectServicesComponent } from './it-project-services/it-project-services.component';
 
 
 @NgModule({
@@ -29,6 +33,9 @@ import { GisServicesComponent } from './gis-services/gis-services.component';
     OurPortfolioComponent,
     ItConsultingComponent,
     GisServicesComponent,
+    OurJobsComponent,
+    JobInfoComponent,
+    ItProjectServicesComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,7 +44,7 @@ import { GisServicesComponent } from './gis-services/gis-services.component';
     RouterModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [SharedDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

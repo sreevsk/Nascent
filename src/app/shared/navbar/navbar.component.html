@@ -27,44 +27,49 @@
       </div>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
         <li class="nav-item">
-          <a class="nav-link no-caret" role="button" [routerLink]="['/home']">
+          <a class="shadow--hover nav-link no-caret" role="button" [routerLink]="['/home']" routerLinkActive="active-link">
             <span class="nav-link-inner--text">Home</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link no-caret" role="button" [routerLink]="['/about-us']">
+          <a class="shadow--hover nav-link no-caret" role="button" [routerLink]="['/about-us']" routerLinkActive="active-link">
             <span class="nav-link-inner--text">About Us</span>
           </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+          <a class="shadow--hover nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-bold-down"></i>
             <span class="nav-link-inner--text">Services</span>
           </a>
           <div class="dropdown-menu">
-            <a [routerLink]="['/it-consulting']" class="shadow-lg--hover dropdown-item">IT Consulting Services</a>
-            <a [routerLink]="['/landing']" class="shadow-lg--hover dropdown-item">IT Project Services</a>
-            <a [routerLink]="['/gis-services']" class="shadow-lg--hover dropdown-item">GIS Services</a>
+            <a [routerLink]="['/it-consulting']" routerLinkActive="active-link"
+              class="shadow-lg--hover dropdown-item">IT Consulting Services</a>
+            <a [routerLink]="['/it-project']" routerLinkActive="active-link" class="shadow-lg--hover dropdown-item">IT
+              Project Services</a>
+            <a [routerLink]="['/gis-services']" routerLinkActive="active-link"
+              class="shadow-lg--hover dropdown-item">GIS Services</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link no-caret" role="button" [routerLink]="['/support']">
+          <a class="shadow--hover shadow--hover nav-link no-caret" role="button" routerLinkActive="active-link" [routerLink]="['/support']">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Support</span>
           </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+          <a class="shadow--hover nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-bold-down"></i>
             <span class="nav-link-inner--text">Our Catalogue</span>
           </a>
           <div class="dropdown-menu">
-            <a [routerLink]="['/our-portfolio']" class="shadow-lg--hover dropdown-item">Our Portfolio</a>
-            <a [routerLink]="['/landing']" class="shadow-lg--hover dropdown-item">Our Jobs</a>
+            <a [routerLink]="['/our-portfolio']" routerLinkActive="active-link"
+              class="shadow-lg--hover dropdown-item">Our Portfolio</a>
+            <a [routerLink]="['/our-jobs']" routerLinkActive="active-link" class="shadow-lg--hover dropdown-item">Our
+              Jobs</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link no-caret" role="button" [routerLink]="['/contact-us']">
+          <a class="nav-link no-caret shadow--hover" role="button" routerLinkActive="active-link" [routerLink]="['/contact-us']">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Contact Us</span>
           </a>

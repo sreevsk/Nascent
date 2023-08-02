@@ -16,6 +16,10 @@
     }
 }
 
+.navbar-nav .nav-item :hover {
+    // background-color: #212529;
+}
+
 .navbar-brand {
     font-size: 18px;
     letter-spacing: 0.2em;
@@ -24,3 +28,10 @@
     font-family: 'Poiret One', sans-serif;
 }
 
+
+
+
+  
+  .active-link a:hover:before {
+   
+  }

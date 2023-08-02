@@ -8,9 +8,18 @@ import data from '@assets/properties/portfolio-data.json';
 })
 export class OurPortfolioComponent implements OnInit {
   portfolioItems: any = data["companies"];
-  constructor() { }
+  customArray: number[] = [];
+  constructor() { 
+    this.generateCustomArray(data["companies"].length / 2, 2);
+  }
 
   ngOnInit(): void {
+  }
+
+  generateCustomArray(length: number, increment: number): void {
+    for (let i = 0; i < length; i++) {
+      this.customArray.push(i * increment);
+    }
   }
 
 }

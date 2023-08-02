@@ -1,0 +1,863 @@
+{
+    "nameSet": {
+        "jobTitle": "Job Title",
+        "jobId": "Job ID",
+        "jobLocation": "Job Location",
+        "jobTravelLocations": "Job Travel Location(s)",
+        "noOfPositions": "# Positions",
+        "candidateConstraints": "Candidate Constraints",
+        "duration": "Duration",
+        "noOfLayers": "# of Layers",
+        "workEligibility": "Work Eligibility",
+        "keyTechnology": "Key Technology",
+        "jobResponsibilities": {
+            "title": "Job Responsibilities",
+            "type": "List"
+        },
+        "skillsAndExperienceRequired": {
+            "title": "Skills And Experience Required",
+            "type": "List"
+        }
+    },
+    "jobs": [
+        {
+            "title": "Senior Infrastructure Project Manager",
+            "jobCategory": "DEVELOPS",
+            "type": "Full Time",
+            "location": "Local South FL Only (no relocation)",
+            "available": true,
+            "details": {
+                "jobTitle": "Senior Infrastructure Project Manager",
+                "jobId": " 2022-11566",
+                "jobLocation": " Local South FL Only (no relocation)",
+                "jobTravelLocations": "",
+                "noOfPositions": " 4",
+                "candidateConstraints": " US Permanent eligibility to work required; NO candidates on H1B Visa’s (no exceptions)",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " US Permanent Eligibility to Work Required",
+                "keyTechnology": " infrastructure, PMP, Experience with Architecture, Data, Corporate, Commercial, Retail, Shared Services domains",
+                "jobResponsibilities": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "*This role is hybrid. Must be able to report to office 2 days per week. Local candidates only; no relocation. No sponsorship.",
+                            "list": [
+                                "Manage project timelines and cross-project dependencies to ensure acceptable delivery by the Client and all stakeholders",
+                                "Monitors and manages project financials, scope, and schedule to ensure project stays aligned with all Client specifications",
+                                "Generate, validate, and distribute timely status reports, time usage reports, and expense reports",
+                                "Deliver and Execute a Deadline driven Plan",
+                                "Manage Assets Data and Customer Conversion Projects ensuring assets interdependencies and Integrated within the Project",
+                                "Implement an MBM Conversion Runbook",
+                                "May indirectly manage cross-LoB Project team consisting of Business Analysts, Business SMEs and Technology Resources",
+                                "Manage, and escalate as needed, risks and issues throughout the program",
+                                "Create and implement a change management plan",
+                                "Manage day-to-day client interaction, sets and manages client expectations, develops lasting relationships with Client, their personnel and other program stakeholders",
+                                "May manage several projects at any given time",
+                                "Manage hardware, software and staff augmentation vendors and associated SOWs",
+                                "Manage Clarity project administration"
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "Required",
+                            "list": [
+                                "10+ years of previous program leadership and/or relevant consulting experience",
+                                "Strong infrastructure background",
+                                "Knowledge of and demonstrated experience in program management framework, knowledge groups & life cycle",
+                                "Minimum 5 years’ experience with matrix management of cross-functional processes and teams",
+                                "Proficient with Project Management tools",
+                                "Excellent executive-level communication skills (verbal, written)",
+                                "Ensure that the project is delivered on time, meets business and technical requirements and is within the agreed budget. Projects may be internally resourced and via third parties",
+                                "Expertise in the areas of program and project integration, resource forecasting, budgeting, project and program reporting, prioritization, tool selection, application and integration, variance analysis and communication"
+                            ]
+                        },
+                        {
+                            "notes": "Desired",
+                            "list": [
+                                "PMP certification",
+                                "Experience with Architecture, Data, Corporate, Commercial, Retail, Shared Services domains"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Mobile Developer – iOS",
+            "jobCategory": "IOS Dev",
+            "type": "Full Time",
+            "location": "Local South FL Only (no relocation)",
+            "available": true,
+            "details": {
+                "jobTitle": " Mobile Developer – iOS",
+                "jobId": " 2022-11562",
+                "jobLocation": " Local South FL Only (no relocation)",
+                "jobTravelLocations": "",
+                "noOfPositions": " 5",
+                "candidateConstraints": " US Permanent eligibility to work required; NO candidates on H1B Visa’s (no exceptions)",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " US Permanent Eligibility to Work Required",
+                "keyTechnology": " iOS, XCTest, Xcode, Git, architecture patterns, CICD, SwiftUI, Combine",
+                "jobResponsibilities": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "*This role is hybrid. Must be able to report to office 2 days per week. Local candidates only; no relocation. No sponsorship.",
+                            "list": [
+                                "Transform business requirements and research into winning delivery solutions that meet performance goals.",
+                                "Rigorously build and test applications.",
+                                "Perform systems administration: monitor, configure, back-up, authenticate, tune.",
+                                "Aim for defect-free programming, create and maintain quality code, provide support during testing cycles and post-production deployment, engage in peer code reviews.",
+                                "Contribute to project plans, estimations and status updates.",
+                                "Identify issues, develop and maintain processes that address and resolve them, (and be sure to communicate/alert stakeholders as needed).",
+                                "Primarily focus on day-to-day activities.",
+                                "Make enhancements and troubleshoot.",
+                                "Configure and develop custom components with technology partners (analysts, developers, designers etc.) to meet requirements and goals.",
+                                "Ensure applications are free of common coding vulnerabilities (and follow standard security practices).",
+                                "Proactively put forward ideas that speak to project objectives (e.g. development, testing solutions, and tools).",
+                                "Complete unit and integration testing per standards and design specs.",
+                                "Take part in scope assessment, risk and cost analysis.",
+                                "Respect technology delivery practices and standards, project management disciplines.",
+                                "Stay on top of state-of-health monitoring and monthly SLA targets.",
+                                "Apply and share technical expertise during incident management life cycle (e.g. analyzes reports and outages, perform impact assessments, facilitate stakeholder communication)."
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "Required",
+                            "list": [
+                                "5+ years experience in building iOS apps",
+                                "Solid oral and written communication skills",
+                                "In depth knowledge and/or experience with Swift and Objective-C",
+                                "Solid understanding of multithreaded applications",
+                                "Experience with custom view creation from code and autolayout for dynamic screensize",
+                                "Experience with XCTest, Xcode instruments and git",
+                                "Experience with architecture patterns like POP, MVVM and reactive",
+                                "Understanding of IT Standards, UX Design, Accessibility and Agile Methodologies",
+                                "Comfortable with collective code ownership and pair programming"
+                            ]
+                        },
+                        {
+                            "notes": "Desired",
+                            "list": [
+                                "Knowledge of CI/CD tools and scripts",
+                                "Experience with SwiftUI, Combine",
+                                "Experience working with Frameworks"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Lead Mainframe Developer",
+            "jobCategory": "DEVELOPS",
+            "type": "Full Time",
+            "location": "Local South FL Only (no relocation)",
+            "available": true,
+            "details": {
+                "jobTitle": " Lead Mainframe Developer",
+                "jobId": " 2022-11561",
+                "jobLocation": " Local South FL Only (no relocation)",
+                "jobTravelLocations": "",
+                "noOfPositions": " 1",
+                "candidateConstraints": " US Permanent eligibility to work required; NO candidates on H1B Visa’s (no exceptions)",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " US Permanent Eligibility to Work Required",
+                "keyTechnology": " COBOL, JCL, DB2, SAS, MQ etc on z/OS",
+                "jobResponsibilities": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "*This role is hybrid. Must be able to report to office 2 days per week. Local candidates only; no relocation. No sponsorship.",
+                            "list": [
+                                "Transform business requirements and research into winning delivery solutions that meet performance goals.",
+                                "Rigorously build and test applications.",
+                                "Perform systems administration: monitor, configure, back-up, authenticate, tune.",
+                                "Aim for defect-free programming, create and maintain quality code, provide support during testing cycles and post-production deployment, engage in peer code reviews.",
+                                "Contribute to project plans, estimations and status updates.",
+                                "Identify issues, develop and maintain processes that address and resolve them, (and be sure to communicate/alert stakeholders as needed).",
+                                "Primarily focus on day-to-day activities.",
+                                "Make enhancements and troubleshoot.",
+                                "Configure and develop custom components with technology partners (analysts, developers, designers etc.) to meet requirements and goals.",
+                                "Ensure applications are free of common coding vulnerabilities (and follow standard security practices).",
+                                "Proactively put forward ideas that speak to project objectives (e.g. development, testing solutions, and tools).",
+                                "Complete unit and integration testing per standards and design specs.",
+                                "Take part in scope assessment, risk and cost analysis.",
+                                "Respect technology delivery practices and standards, project management disciplines.",
+                                "Stay on top of state-of-health monitoring and monthly SLA targets.",
+                                "Apply and share technical expertise during incident management life cycle (e.g. analyzes reports and outages, perform impact assessments, facilitate stakeholder communication)."
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "Skills",
+                            "list": [
+                                "COBOL",
+                                "JCL",
+                                "DB2",
+                                "SAS",
+                                "MQ",
+                                "Jira, Confluence"
+                            ]
+                        },
+                        {
+                            "notes": "Experience",
+                            "list": [
+                                "7+ years of experience in leading a Mainframe development/support team.",
+                                "7+ years of experience in developing mainframe applications using COBOL, JCL, DB2, SAS, MQ etc on z/OS.",
+                                "Solid leadership skills and background.",
+                                "Good understanding of Creational, Structural, Behavioral Design Patterns, architecture patterns, Application, and Integration architectures.",
+                                "Good understanding of Agile methodologies (Scrum, SAFe, etc.).",
+                                "Has an ability to work in a global organization with stakeholders."
+                            ]
+                        },
+                        {
+                            "notes": "Desired Skills",
+                            "list": [
+                                "API",
+                                "MS Azure Cloud Computing",
+                                "Running Docker containers",
+                                "Knowledge on Mainframe Tools ex IDz, ZDT, ADDI, PD tool, IMS Explorer for Development"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Senior Mainframe Developer",
+            "jobCategory": "DEVELOPS",
+            "type": "Full Time",
+            "location": "Local South FL Only (no relocation)",
+            "available": true,
+            "details": {
+                "jobTitle": " Senior Mainframe Developer",
+                "jobId": " 2022-11560",
+                "jobLocation": " Local South FL Only (no relocation)",
+                "jobTravelLocations": "",
+                "noOfPositions": " 1",
+                "candidateConstraints": " US Permanent eligibility to work required; NO candidates on H1B Visa’s (no exceptions)",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " US Permanent Eligibility to Work Required",
+                "keyTechnology": " COBOL, JCL, DB2, SAS, MQ etc on z/OS",
+                "jobResponsibilities": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "*This role is hybrid. Must be able to report to office 2 days per week. Local candidates only; no relocation. No sponsorship.",
+                            "list": [
+                                "Transform business requirements and research into winning delivery solutions that meet performance goals.",
+                                "Rigorously build and test applications.",
+                                "Perform systems administration: monitor, configure, back-up, authenticate, tune.",
+                                "Aim for defect-free programming, create and maintain quality code, provide support during testing cycles and post-production deployment, engage in peer code reviews.",
+                                "Contribute to project plans, estimations and status updates.",
+                                "Identify issues, develop and maintain processes that address and resolve them, (and be sure to communicate/alert stakeholders as needed).",
+                                "Primarily focus on day-to-day activities.",
+                                "Make enhancements and troubleshoot.",
+                                "Configure and develop custom components with technology partners (analysts, developers, designers etc.) to meet requirements and goals.",
+                                "Ensure applications are free of common coding vulnerabilities (and follow standard security practices).",
+                                "Proactively put forward ideas that speak to project objectives (e.g. development, testing solutions, and tools).",
+                                "Complete unit and integration testing per standards and design specs.",
+                                "Take part in scope assessment, risk and cost analysis.",
+                                "Respect technology delivery practices and standards, project management disciplines.",
+                                "Stay on top of state-of-health monitoring and monthly SLA targets.",
+                                "Apply and share technical expertise during incident management life cycle (e.g. analyzes reports and outages, perform impact assessments, facilitate stakeholder communication)."
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "Skills",
+                            "list": [
+                                "COBOL",
+                                "JCL",
+                                "DB2",
+                                "SAS",
+                                "MQ",
+                                "Jira, Confluence"
+                            ]
+                        },
+                        {
+                            "notes": "Experience",
+                            "list": [
+                                "7+ years of experience in leading a Mainframe development/support team.",
+                                "7+ years of experience in developing mainframe applications using COBOL, JCL, DB2, SAS, MQ etc on z/OS.",
+                                "Solid leadership skills and background.",
+                                "Good understanding of Creational, Structural, Behavioral Design Patterns, architecture patterns, Application, and Integration architectures.",
+                                "Good understanding of Agile methodologies (Scrum, SAFe, etc.).",
+                                "Has an ability to work in a global organization with stakeholders."
+                            ]
+                        },
+                        {
+                            "notes": "Desired Skills",
+                            "list": [
+                                "API",
+                                "MS Azure Cloud Computing",
+                                "Running Docker containers",
+                                "Knowledge on Mainframe Tools ex IDz, ZDT, ADDI, PD tool, IMS Explorer for Development"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Full Stack Development Lead",
+            "jobCategory": "DEVELOPS",
+            "type": "Full Time",
+            "location": "Local South FL Only (no relocation)",
+            "available": true,
+            "details": {
+                "jobTitle": " Full Stack Development Lead",
+                "jobId": " 2022-11558",
+                "jobLocation": " Local South FL Only (no relocation)",
+                "jobTravelLocations": "",
+                "noOfPositions": " 1",
+                "candidateConstraints": " US Permanent eligibility to work required; NO candidates on H1B Visa’s (no exceptions)",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " US Permanent Eligibility to Work Required",
+                "keyTechnology": " native JavaScript, HTML and CSS, Node.js, Spring, Spring Boot, Spring Batch",
+                "jobResponsibilities": {
+                    "notes": "*This role is hybrid. Must be able to report to office 2 days per week. Local candidates only; no relocation. No sponsorship. <br> Practice Excellence",
+                    "list": [
+                        {
+                            "notes": "Practice Excellence",
+                            "list": [
+                                "Understanding and executing on practice strategy and leading the delivery for one of our Full Stack engineering practice teams.",
+                                "Participating in defining and executing quarterly OKRs and Engineering KPIs.",
+                                "Staying current with new and emerging technologies and selecting innovative platforms to enhance the capabilities of the business; this includes learning the technologies, integrating them within the company, and training our teams to ensure their continued adaptability.",
+                                "Partnering with other practice leaders (Architecture, QE, Agile at Scale, SRE, etc.) and constituents to keep abreast with best practices and standards",
+                                "Introducing best in class engineering processes and practices, tools and methodologies that help strengthen technical craftmanship, consistency, productivity and enhance practitioner/customer delight.",
+                                "Developing and supporting full stack technology software engineering thought leadership by reviewing technical white papers/case studies authored by practitioners.",
+                                "Collaborating on the technical design for new/emerging and existing digital products and partnering with PGTLs to ensure that those products are built to meet customer needs using feasible and scalable technical solutions.",
+                                "Exhibiting subject matter expertise and driving culture change for the practice amongst Business/Customer Journey, and Product/Platform leaders; Helping to develop ‘test and learn’ lab approach through proof of concept, minimal viable/deployable/usable prototypes to explore new and emerging technologies against customer centric use cases.",
+                                "Implementing automation through a robust Continuous Integration / Continuous Delivery model.  Solving highly complex problems alongside fellow team members, taking an alternative approach to produce uncommon solutions that may not have been considered before.",
+                                "Improving product quality, security, and performance."
+                            ]
+                        },
+                        {
+                            "notes": "Team Leadership, Stakeholder engagement",
+                            "list": [
+                                "Partnering with stakeholders, presenting a compelling vision of the strategy, and being able to successfully influence without authority.",
+                                "Leading a team of practitioners (direct reports) in an area of expertise.",
+                                "Providing overall team leadership, training, coaching, development, succession, recruitment and resource management, and ensuring on-going performance feedback and assessments occur and development plans exist for each team member.",
+                                "Helping your engineers/practitioners grow their skills and experience.",
+                                "Helping your team by identifying and eliminating obstacles to make them successful in their work.",
+                                "Providing guidance and coaching to team members on technical contributions, product architecture, and other areas.",
+                                "Contributing to the sense of psychological safety on your team.",
+                                "Holding regular 1:1’s with all members of their team.",
+                                "Giving regular and clear feedback around the individual’s performance.",
+                                "Community of Interest (CoI)"
+                            ]
+                        },
+                        {
+                            "notes": "Community of Interest (CoI)",
+                            "list": [
+                                "Helping develop CoIs/special interest groups on various technologies across full stack (Front end, middleware, backend), architecture and design patterns (creational, structural, behavioral, microservices, etc.), as well as some emerging technologies (Artificial Intelligence (Machine Learning, Deep Learning), Intelligent Automation, Blockchain, mobile, edge computing, etc.)",
+                                "Helping organize hackathons and events that encourage practitioners to build proof of concepts/demos as side projects to support exploring new technologies to help build creative solutions.",
+                                "Building and leading an engaged culture that inspires pride and meaningful work amongst practitioners.",
+                                "Talent Acceleration"
+                            ]
+                        },
+                        {
+                            "notes": "Talent Acceleration",
+                            "list": [
+                                "Actively seeking and hiring globally distributed (best) talent, growing these colleagues and managing retention.",
+                                "Helping with the development of Day-In-a-Life-Of (DILO) material (videos, runbooks, guides, checklists) for specific roles within the practice that can help practitioners as well as new members during onboarding.",
+                                "Partnering with leading Software Engineering consortiums to jointly organize roadshows, expert panel discussions to raise our profile.",
+                                "Planning and Allocations",
+                                "Collaborating with PGTLs and other constituents on the product group/customer journey side to understand the product roadmap.",
+                                "Participating in the PI planning to contribute from Engineering best practices perspective.",
+                                "Reviewing practitioner allocations on product/platform PODs to support the demand for skillset competency, and supporting any adjustments required to address velocity/throughput, or competency gaps."
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "Skills",
+                            "list": [
+                                "Be an evangelist of engineering best practice and hands on experience with high-quality software development principles.",
+                                "A full stack SE practice technical thought leader, who can lead and execute SE Practice strategy.",
+                                "Have a passion for coaching and mentoring talent, empowering individuals to think differently in how they approach and solve problems.",
+                                "Be open and honest – someone who works collaboratively to freely share knowledgeand experience.",
+                                "Be effective at making great decisions and delivering fantastic outcomes in line with Product and Business strategy.",
+                                "You’ll have exceptional communication and interpersonal skills; able to hold one own’s in a strategy discussion with the key business stakeholders as well as capable of technical deep dives in design reviews."
+                            ]
+                        },
+                        {
+                            "notes": "Experience",
+                            "list": [
+                                "5+ years of experience in leading a full stack development team",
+                                "10+ years of experience in developing Front End Web development, including native JavaScript, HTML and CSS.",
+                                "5+ years of experience in developing Backend microservices, using node.js or Java, proficient with database technologies both NoSql and rational, queue technologies such as kafka, streaming, caching and more",
+                                "Solid leadership skills and background",
+                                "Experience with a modern JavaScript framework, Java frameworks (including Spring, Springboot, Springbatch)",
+                                "Experience with MS Azure Cloud Computing",
+                                "Good understanding of Creational, Structural, Behavioral Design Patterns, Microservices architecture patterns, Application, and Integration architectures (including RESTfull architecture style)",
+                                "Good understanding of Agile methodologies (Scrum, SAFe, etc.)",
+                                "Strong knowledge of Web standards and protocols (SOAP, REST) – Advantage",
+                                "Has an ability to work in a global organization with stakeholders",
+                                "Knowledge and experience of DevSecOps and related tools"
+                            ]
+                        },
+                        {
+                            "notes": "Desired Skills",
+                            "list": [
+                                "API",
+                                "MS Azure Cloud Computing",
+                                "Running Docker containers",
+                                "Knowledge on Mainframe Tools ex IDz, ZDT, ADDI, PD tool, IMS Explorer for Development"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Senior Cloud Engineer",
+            "jobCategory": "DEVELOPS",
+            "type": "Full Time",
+            "location": "Remote",
+            "available": true,
+            "details": {
+                "jobTitle": "Serior Cloud Engineer",
+                "jobLocation": " Local South FL Only (no relocation)",
+                "Job Description": "",
+                "noOfPositions": " 4",
+                "jobId": " 2022-0801",
+                "candidateConstraints": "",
+                "Knowledge": "",
+                "noOfLayers": " 0",
+                "Skills and Abilities": "",
+                "Prior Work Experience": "",
+                "jobTravelLocations": "",
+                "Education and Credentials": "",
+                "duration": " Long Term",
+                "workEligibility": " US Permanent Eligibility to Work Required",
+                "keyTechnology": " native JavaScript, HTML and CSS, Node.js, Spring, Spring Boot, Spring Batch",
+                "jobResponsibilities": {
+                    "notes": "*This role is hybrid. Must be able to report to office 2 days per week. Local candidates only; no relocation. No sponsorship. <br> Practice Excellence",
+                    "list": [
+                        {
+                            "notes": "See Yourself as a Sr. Cloud Engineer",
+                            "list": [
+                                "The Sr. Cloud Engineer translates business demand for information into technical requirements, frameworks, designs and product selections to deliver solutions for data warehouses and data marts, operational & financial reporting and analytics. The Sr. Cloud Engineer will be responsible for the extraction, transformation, and loading of data into the data warehouses and marts for reporting purposes. This will include the analysis of business requirements, architecting and designing the solution, and operationalizing the process, all while collaborating with and leading other project team members."
+                            ]
+                        },
+                        {
+                            "notes": "See Your Primary Duties and Responsibilities",
+                            "list": [
+                                "Design, engineer and deliver advanced hybrid cloud platform and infrastructure features at a regular cadence on which development teams will construct cloud applications.",
+                                "Drive an automation-first approach when implementing our services and frameworks using infrastructure-as-code technologies like AWS CloudFormation, Azure ARM Templates and Terraform.",
+                                "Ensure delivery of high-quality cloud solutions, emphasizing security and operability while optimizing for development velocity and extensibility.",
+                                "Continuously improve the cloud platform by applying best practices and knowing the latest on industry trends and technology",
+                                "Define standards and best practices. Lead tool selection and integration. Research new technologies and conduct proof of concepts",
+                                "Other duties as requested."
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "Knowledge",
+                            "list": [
+                                "Be an evangelist of engineering best practice and hands on experience with high-quality software development principles.",
+                                "A full stack SE practice technical thought leader, who can lead and execute SE Practice strategy.",
+                                "Have a passion for coaching and mentoring talent, empowering individuals to think differently in how they approach and solve problems.",
+                                "Be open and honest – someone who works collaboratively to freely share knowledgeand experience.",
+                                "Be effective at making great decisions and delivering fantastic outcomes in line with Product and Business strategy.",
+                                "You’ll have exceptional communication and interpersonal skills; able to hold one own’s in a strategy discussion with the key business stakeholders as well as capable of technical deep dives in design reviews."
+                            ]
+                        },
+                        {
+                            "notes": "Skills and Abilities:",
+                            "list": [
+                                "Proven ability to quickly understand client requirements and translate them into development requirements",
+                                "Strong analytical ability",
+                                "Attention to detail",
+                                "Takes ownership of actions and outcomes",
+                                "Willing and capable to remain open, flexible and adaptable to change",
+                                "Strong team orientation",
+                                "Ability and willingness to share knowledge and lead team members"
+                            ]
+                        },
+                        {
+                            "notes": "Prior Work Experience",
+                            "list": [
+                                "Technical: 10 – 15 years",
+                                "Supervisory: None"
+                            ]
+                        },
+                        {
+                            "notes": "Education and Credentials",
+                            "list": [
+                                "Required: Bachelor’s Degree, Concentration in related field"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Full Stack Developer",
+            "jobCategory": "DEVELOPS",
+            "type": "Full Time",
+            "location": "Local South FL Only (no relocation)",
+            "available": true,
+            "details": {
+                "jobTitle": "Full Stack Developer",
+                "jobId": " 2022-11557",
+                "jobLocation": " Local South FL Only (no relocation)",
+                "jobTravelLocations": "",
+                "noOfPositions": " 2",
+                "candidateConstraints": " US Permanent eligibility to work required; NO candidates on H1B Visa’s (no exceptions)",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " US Permanent Eligibility to Work Required",
+                "keyTechnology": " Angular 7, JBoss, Spring, Hibernate, banking experience, contact/call center experience",
+                "jobResponsibilities": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "*This role is hybrid. Must be able to report to office 2 days per week. Local candidates only; no relocation. No sponsorship.",
+                            "list": [
+                                "Transform business requirements and research into winning delivery solutions that meet performance goals.",
+                                "Rigorously build and test applications.",
+                                "Perform systems administration: monitor, configure, back-up, authenticate, tune.",
+                                "Aim for defect-free programming, create and maintain quality code, provide support during testing cycles and post-production deployment, engage in peer code reviews.",
+                                "Contribute to project plans, estimations and status updates.",
+                                "Identify issues, develop and maintain processes that address and resolve them, (and be sure to communicate/alert stakeholders as needed).",
+                                "Primarily focus on day-to-day activities.",
+                                "Make enhancements and troubleshoot.",
+                                "Configure and develop custom components with technology partners (analysts, developers, designers etc.) to meet requirements and goals.",
+                                "Ensure applications are free of common coding vulnerabilities (and follow standard security practices).",
+                                "Proactively put forward ideas that speak to project objectives (e.g. development, testing solutions, and tools).",
+                                "Complete unit and integration testing per standards and design specs.",
+                                "Take part in scope assessment, risk and cost analysis.",
+                                "Respect technology delivery practices and standards, project management disciplines.",
+                                "Stay on top of state-of-health monitoring and monthly SLA targets.",
+                                "Apply and share technical expertise during incident management life cycle (e.g. analyzes reports and outages, perform impact assessments, facilitate stakeholder communication)."
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "Knowledge",
+                            "list": [
+                                "Excellent written and verbal communication skills",
+                                "Highly organized, self-motivated and customer oriented",
+                                "Positive attitude and can work independently or in groups",
+                                "Attentive to detail and a thought leader in their space",
+                                "Agile and SDLC/PMLC processes",
+                                "Linux",
+                                "NodeJs",
+                                "Swing and SWT",
+                                "Continuous Integration and Test Driven Methodologies"
+                            ]
+                        },
+                        {
+                            "notes": "Required Skills",
+                            "list": [
+                                "Development and design",
+                                "Applications Servers (JBoss on Cloud)",
+                                "Good understanding of Agile methodologies (Scrum, SAFe, etc.)",
+                                "Experience in developing Front End Web development, including native JavaScript, HTML and CSS.",
+                                "Java or Node JS applications, Restful APIs or web services",
+                                "Hibernate, Spring MVC, Spring Boot",
+                                "DB experience (Example Mongo DB, Oracle, etc.)",
+                                "Micro services",
+                                "GIT/ bit bucket",
+                                "Angular",
+                                "Jira and confluence"
+                            ]
+                        },
+                        {
+                            "notes": "Desired Skills",
+                            "list": [
+                                "Knowledge of bank and technology standards (e.g., infrastructure, architecture, processes, applications) is an asset",
+                                "Knowledge of Contact Center, Call Center, IVRs or Dialer solutions is an asset"
+                            ]
+                        },
+                        {
+                            "notes": "Education",
+                            "list": [
+                                "University or College degree in Computer Science or an equivalent field"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Data Engineer",
+            "jobCategory": "DEVELOPS",
+            "type": "Full Time",
+            "location": "Hartford",
+            "available": true,
+            "details": {
+                "jobTitle": " Data Engineer",
+                "jobId": " 2022-11553",
+                "jobLocation": " Hartford, CT or Remote",
+                "jobTravelLocations": "",
+                "noOfPositions": " 1",
+                "candidateConstraints": "",
+                "duration": " TBD",
+                "noOfLayers": " 0",
+                "workEligibility": " All Work Authorizations are Permitted – No Visa Transfers",
+                "keyTechnology": " Spark, Pyspark, big data infra, AWS, ETL/Teradata, Gitlab",
+                "jobResponsibilities": {
+                    "notes": "As a Data engineer, you will have the opportunity to expand your skills in a variety of areas while working on a data-focused team. On this team, you will be help architect and deliver a wide variety of code artifacts. You will be working to build a scalable and secure ETL solutions for operational, reporting and analytical data needs. In addition, you’ll gain experience in CI/CD by utilizing Jenkins, Terraform, and Ansible.  Our group has a focus on full cycle engineering – requirements to production support – this means you will have an opportunity to work on a variety of problems to solve while gaining Big Data experience. Although this is a specialized role you will have the freedom to expand your responsibilities and try new things you may be interested in.You will be challenged to",
+                    "list": [
+                        {
+                            "notes": "You will be challenged to",
+                            "list": [
+                                "Design, develop and maintain ETL platforms for various business use cases which are fault tolerant, highly distributed and robust.",
+                                "Analyze large sets of structured and semi structured data for business analytics and ETL design.",
+                                "Translate business needs and vision into roadmap, project deliverables and organization strategies.",
+                                "Design and implement ETL solutions using leveraging cloud native platforms.",
+                                "Collaborate with analytics and business teams to design data models that feed business intelligence tools, increasing data accessibility and encouraging data driven solutions."
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "",
+                            "list": [
+                                "Good experience on designing and developing data pipelines for data ingestion and transformation using Spark.",
+                                "Distributed computing experience using Pyspark.",
+                                "Good understanding of spark framework and spark architecture.",
+                                "Experience working in Cloud based big data infrastructure.",
+                                "Excellent in trouble shooting the performance and data skew issues.",
+                                "Must have good understanding of spark run time metrics and tune applications based on metrics.",
+                                "Deep knowledge in partitioning, bucketing concepts of data ingestion.",
+                                "Good understanding of AWS services like Glue, Athena, S3, Lambda, Cloud formation.",
+                                "Preferred working knowledge on the implementation of datalake ETL using AWS glue, Databricks etc.",
+                                "Experience with data modelling techniques for cloud data stores and on prem databases like Teradata, Teradata Vantage (TDV) etc.",
+                                "Preferred working experience in ETL development in Teradata vantage and data migration from on prem to Teradata vantage.",
+                                "Proficiency in SQL, relational and non-relational databases, query optimization and data modelling.",
+                                "Experience with source code control systems like Gitlab.",
+                                "Experience with large scale distributed relational and NoSQL database systems."
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Senior Project Manager",
+            "jobCategory": "Manager",
+            "type": "Full Time",
+            "location": "Local South FL Only (no relocation)",
+            "available": true,
+            "details": {
+                "jobTitle": " Senior Project Manager",
+                "jobId": " 2022-11567",
+                "jobLocation": " Local South FL Only (no relocation)",
+                "jobTravelLocations": "",
+                "noOfPositions": " 5",
+                "candidateConstraints": " US Permanent eligibility to work required; NO candidates on H1B Visa’s (no exceptions)",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " US Permanent Eligibility to Work Required",
+                "keyTechnology": " conversion and M&A project experience, Jira, MS Office, PMP, architecture, data, corporate, commercial, retail, shared services domains",
+                "jobResponsibilities": {
+                    "notes": "*This role is hybrid. Must be able to report to office 2 days per week. Local candidates only; no relocation. No sponsorship.",
+                    "list": [
+                        {
+                            "notes": "",
+                            "list": [
+                                "Manage project timelines and cross-project dependencies to ensure acceptable delivery by the Client and all stakeholders",
+                                "Monitors and manages project financials, scope, and schedule to ensure project stays aligned with all Client specifications",
+                                "Generate, validate, and distribute timely status reports, time usage reports, and expense reports",
+                                "Deliver and Execute a Deadline driven Plan",
+                                "Manage Assets Data and Customer Conversion Projects ensuring assets interdependencies and Integrated within the Project",
+                                "Implement an MBM Conversion Runbook",
+                                "May indirectly manage cross-LoB Project team consisting of Business Analysts, Business SMEs and Technology Resources",
+                                "Manage, and escalate as needed, risks and issues throughout the program",
+                                "Create and implement a change management plan",
+                                "Manage day-to-day client interaction, sets and manages client expectations, develops lasting relationships with Client, their personnel and other program stakeholders",
+                                "May manage several projects at any given time",
+                                "Manage hardware, software and staff augmentation vendors and associated SOWs",
+                                "Manage Clarity project administration"
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "",
+                            "list": [
+                                "Minimum of 10 years program and project management experience",
+                                "Experience with Conversion and M&A Projects within the finance industry",
+                                "Intermediate level of proficiency or above with JIRA, Microsoft Office Suite to include, MS Project, Outlook, Word, PowerPoint & Excel",
+                                "Capable of independent action aligned with goals and objectives",
+                                "Must be capable of verbally engaging with world class clientele and, when challenged, supporting and defending industry best practices with minimal / no preparation",
+                                "Excellent verbal and written communication skills",
+                                "Excellent organizational and interpersonal skills",
+                                "Strong work ethic"
+                            ]
+                        },
+                        {
+                            "notes": "Desired Skills",
+                            "list": [
+                                "PMP certification",
+                                "Banking Program and Project Delivery Frameworks",
+                                "Experience with Architecture, Data, Corporate, Commercial, Retail, Shared Services domains"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "UX Designer",
+            "jobCategory": "UX developer",
+            "type": "Full Time",
+            "location": "Mt Laurel NJ South Florida",
+            "available": true,
+            "details": {
+                "jobTitle": " UX Designer",
+                "jobId": " 2022-0802",
+                "jobLocation": " South Florida,Mt Laurel, NJ, Manhattan",
+                "jobTravelLocations": "",
+                "noOfPositions": " 2",
+                "candidateConstraints": "",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " All Work Authorizations are Permitted – No Visa Transfers",
+                "keyTechnology": " Axure, Adobe Creative Suite, UI experience",
+                "Job Description": " User Experience Designer",
+                "jobResponsibilities": {
+                    "notes": "User Experience Designer",
+                    "list": [
+                        {
+                            "notes": "As a designer, you’re a true expert in your field and a strong advocate for the customer. You’re formally trained in design and passionate about customer-centric innovation. You take pride in your work. You obsess over details and insist on iterating until you’ve gotten it right. You see feedback as a good thing. You’re a great storyteller who is at ease presenting and discussing your work with clients and stakeholders. You challenge old ways of thinking and put the customer at the center of everything you do.  User-Centred Design methodologies are second nature to you.",
+                            "list": [
+                                "Transform complex problems into elegant experiences",
+                                "Ideation, concept development and experience innovation",
+                                "Creation of sketches, wireframes, specifications, prototypes, scenarios and storyboards",
+                                "Close collaboration with development teams to ensure that design intent is achieved",
+                                "Advocate for the user throughout the project lifecycle",
+                                "Stay abreast of current design methodologies, practices and trends",
+                                "Participation in observational studies, usability testing and other customer research",
+                                "Effective communication of conceptual ideas, detailed designs, and design approaches/rationales"
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "",
+                            "list": [
+                                "A degree in design or a design-related discipline (industrial design, user-centred design, visual design, design strategy, design management, human factors, psychology, human-computer interaction, etc.)",
+                                "Several years of experience as a user interface designer",
+                                "10+ years of experience designing mobile and responsive experiences",
+                                "Ability to translate conceptual ideas into compelling customer experiences",
+                                "Strong prototyping skills demonstrated through various techniques: sketch, paper, wireframe, video, or interactive prototypes",
+                                "Proficiency with design tools as such Axure and Adobe’s Creative Suite",
+                                "Strong understanding of web and mobile technologies",
+                                "Meticulous attention to detail",
+                                "Exceptional organization, logic, and analytical skills",
+                                "Excellent verbal and written communication skills",
+                                "Ability to ask good questions and communicate effectively both verbally and in writing",
+                                "Ability to communicate ideas to a diverse audience and constructively integrate feedback",
+                                "A conceptual thinker with proven problem solving skills",
+                                "Ability to see the “big picture” and hone-in on the details",
+                                "Strong interpersonal skills with the ability to collaborate well in a team environment",
+                                "Strong portfolio that showcases your understanding of user-centred design"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "AWS Application Architect / Lead Engineer",
+            "jobCategory": "Software",
+            "type": "Full Time",
+            "location": "Morris Plains",
+            "available": false,
+            "details": {
+                "jobId": " 2022-0803",
+                "jobTitle": " AWS Application Architect / Lead Engineer",
+                "jobLocation": " Morris Plains, NJ (remote to start)",
+                "jobTravelLocations": "",
+                "noOfPositions": " 1",
+                "Employment Type": " C2H",
+                "candidateConstraints": "",
+                "duration": " Long Term",
+                "noOfLayers": " 0",
+                "workEligibility": " All Work Authorizations are Permitted",
+                "keyTechnology": " Python, Java, .NET, Node, AWS, Cognos, Tableau, CICD",
+                "jobResponsibilities": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "",
+                            "list": [
+                                "Participate in requirement gathering meeting",
+                                "Involve in application architecture design and development",
+                                "Involve in the complete SDLC (Software Development Life Cycle)",
+                                "Troubleshooting/triage/prod-code-bug-fixes.",
+                                "Participate in daily scrum meetings and user story grooming sessions",
+                                "Perform PR reviews and provide comments",
+                                "Involved in release and deployment related activities"
+                            ]
+                        }
+                    ]
+                },
+                "skillsAndExperienceRequired": {
+                    "notes": "",
+                    "list": [
+                        {
+                            "notes": "",
+                            "list": [
+                                "Must have at least 6 years of development experience building applications with Python, Java, .Net and NodeJs.",
+                                "Must have at least 4 years of development experience using AWS services including but not limited to Glue, RedShift, S3, EC2 (Linux+Windows), DMS, ASG, ELB (NLB+ALB), VPC, API Gateway, Lambda, Route53, WAF, CloudFront, RDS SqlServer, DynamoDb, CloudWatch, CloudTrail, KMS, Secrets Manager, IAM and ACM.",
+                                "Must have at least 3 years of experience in installing, configuring and managing Cognos and Tableau reporting tools.",
+                                "Must have at least 2 years of experience in building the application and infrastructure architecture with AWS services.",
+                                "Must have at least 3 years of experience on building CI/CD pipelines using Jenkins and Groovy."
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
