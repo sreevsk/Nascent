@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from '@assets/properties/job-data.json';
+
 import { SharedDataService } from '../shared-data.service';
 
 

@@ -78,7 +78,7 @@
                                                 </div>
                                                 <span
                                                     class="text-capitalize ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
-                                                    {{ item.text }} </span>
+                                                    {{ item }} </span>
                                             </div>
                                         </div>
                                     </div>
@@ -115,7 +115,7 @@
                                                 </div>
                                                 <span
                                                     class="text-capitalize ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
-                                                    {{ item.text }} </span>
+                                                    {{ item }} </span>
                                             </div>
                                         </div>
                                     </div>
@@ -188,7 +188,7 @@
                                                 </div>
                                                 <span
                                                     class="text-capitalize ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
-                                                    {{ item.text }} </span>
+                                                    {{ item }} </span>
                                             </div>
                                         </div>
                                     </div>
@@ -228,7 +228,7 @@
                                                 </div>
                                                 <span
                                                     class="text-capitalize ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
-                                                    {{ item.text }} </span>
+                                                    {{ item }} </span>
                                             </div>
                                         </div>
                                     </div>
@@ -250,7 +250,7 @@
             <div [ngbNavOutlet]="nav2" class="custom-tab-content"></div>
 
         </div>
-        
+
     </section>
 
     <section class="section section-shaped section-lg pt-0">
@@ -269,16 +269,25 @@
                 <div class="col-lg-8">
                     <div class="card bg-secondary shadow border-0">
                         <div class="card-header bg-white">
-                            <div class="text-center"><h4>Any Questions ?</h4></div>
+                            <div class="text-center">
+                                <h4>Any Questions ?</h4>
+                            </div>
                         </div>
                         <div class="card-body px-lg-5 py-lg-5">
-                            <form role="form">
+                            <form [formGroup]="requiredForm" novalidate>
                                 <div class="form-group">
                                     <div class="input-group input-group-alternative mb-3">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                         </div>
-                                        <input class="form-control" placeholder="Name" type="text">
+                                        <input formControlName="name" class="form-control" placeholder="Name"
+                                            type="text">
+                                    </div>
+                                    <div *ngIf="requiredForm.controls['name'].invalid && requiredForm.controls['name'].touched"
+                                        class="alert alert-danger p-2 pl-3">
+                                        <div *ngIf="requiredForm.controls['name'].errors.required">
+                                            Name is required.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -286,7 +295,17 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                                         </div>
-                                        <input class="form-control" placeholder="Email" type="email">
+                                        <input formControlName="email" class="form-control" placeholder="Email"
+                                            type="email">
+                                    </div>
+                                    <div *ngIf="requiredForm.controls['email'].invalid && requiredForm.controls['email'].touched"
+                                        class="alert alert-danger p-2 pl-3  mt-3">
+                                        <div *ngIf="requiredForm.controls['email'].errors.required; else elseBlock">
+                                            Email is required.
+                                        </div>
+                                        <ng-template #elseBlock>
+                                            Please Enter Valid Email
+                                        </ng-template>
                                     </div>
                                 </div>
                                 <div class="form-group focused">
@@ -295,8 +314,17 @@
                                             <span class="input-group-text"><i class="ni ni-mobile-button"></i></span>
                                         </div>
                                         <input class="form-control" placeholder="Telephone" type="tel" id="phone"
-                                            name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-
+                                            formControlName="phoneNumber" name="phone">
+                                    </div>
+                                    <div *ngIf="requiredForm.controls['phoneNumber'].invalid && requiredForm.controls['phoneNumber'].touched"
+                                        class="alert alert-danger p-2 pl-3  mt-3">
+                                        <div
+                                            *ngIf="requiredForm.controls['phoneNumber'].errors.required; else elseBlock">
+                                            Telephone Number is required.
+                                        </div>
+                                        <ng-template #elseBlock>
+                                            Please Enter Valid Telephone.
+                                        </ng-template>
                                     </div>
                                 </div>
                                 <div class="form-group focused">
@@ -304,23 +332,58 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                                         </div>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                            placeholder="Message"></textarea>
+                                        <textarea formControlName="message" class="form-control"
+                                            id="exampleFormControlTextarea1" placeholder="Message"></textarea>
+                                    </div>
+                                    <div *ngIf="requiredForm.controls['message'].invalid && requiredForm.controls['message'].touched"
+                                        class="alert alert-danger p-2 pl-3 mt-3">
+                                        <div *ngIf="requiredForm.controls['message'].errors.required; else elseBlock">
+                                            Message is required.
+                                        </div>
+                                        <ng-template #elseBlock>
+                                            Please enter minimum 5 characters.
+                                        </ng-template>
                                     </div>
                                 </div>
                                 <div class="row my-4">
                                     <div class="col-12">
                                         <div class="custom-control custom-control-alternative custom-checkbox">
-                                            <input class="custom-control-input" id="customCheckRegister"
-                                                type="checkbox">
+                                            <input formControlName="agreementChecked" class="custom-control-input"
+                                                id="customCheckRegister" for type="checkbox">
                                             <label class="custom-control-label" for="customCheckRegister"><span>
                                                     By using this form you agree with the storage and handling of your
                                                     data by this website.</span></label>
                                         </div>
+                                        <div class="alert alert-danger p-2 pl-3 mt-3"
+                                            *ngIf="requiredForm.get('agreementChecked').invalid && requiredForm.get('agreementChecked').touched">
+                                            You must agree to the terms and conditions.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="button" class="btn btn-primary mt-4">Submit</button>
+                                    <button (click)="sendEmail(classic2)" type="button"
+                                        class="btn btn-primary mt-4">Submit</button>
+                                    <ng-template #classic2 let-c="close" let-d="dismiss">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <div class="py-3 text-center">
+                                                    <div *ngIf="notificationModalPositive; else elseBlock">
+                                                        <h5 class="mt-2">We've received your question.<br> Our team will
+                                                            get back to you soon.</h5>
+                                                    </div>
+                                                    <ng-template #elseBlock>
+                                                        <h5 class="mt-2">We apologize, but it seems there's a technical
+                                                            glitch at the
+                                                            moment. Please refresh the page and try again.</h5>
+                                                    </ng-template>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer justify-content-start">
+                                                <button type="button" (click)="c('Close click')"
+                                                    class="btn btn-primary">Ok, Got it</button>
+                                            </div>
+                                        </div>
+                                    </ng-template>
                                 </div>
                             </form>
                         </div>

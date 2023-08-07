@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -18,6 +19,8 @@ import { GisServicesComponent } from './gis-services/gis-services.component';
 import { OurJobsComponent } from './our-jobs/our-jobs.component';
 import { JobInfoComponent } from './job-info/job-info.component';
 import { SharedDataService } from './shared-data.service';
+import { HttpClientModule } from '@angular/common/http';
+
 import { ItProjectServicesComponent } from './it-project-services/it-project-services.component';
 
 
@@ -43,6 +46,8 @@ import { ItProjectServicesComponent } from './it-project-services/it-project-ser
     FormsModule,
     RouterModule,
     AppRoutingModule,
+    HttpClientModule, 
+    ReactiveFormsModule
   ],
   providers: [SharedDataService],
   bootstrap: [AppComponent]
