@@ -2,287 +2,272 @@
     "companies": [
         {
             "name": "HCL Technologies Ltd.",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/HCL_Technologies-Logo.png",
             "description": "HCL Technologies Ltd. Technology Hub, SEZ Plot No. 3A, Sector 126, Noida – 201304, India HCL Technologies is a next-generation global technology company that helps enterprises reimagine their businesses for the digital age.  HCL Technologies Ltd. Technology Hub, SEZ Plot No. 3A, Sector 126, Noida – 201304, India HCL Technologies is a next-generation global technology company that helps enterprises reimagine their businesses for the digital age."
         },
         {
             "name": "Matrix Resources",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Matrix.png",
             "description": "Matrix Resources provides IT Staffing & Managed Solutions across North America for Contracting and Direct Hire to include Telecom managed services and Agile & DevSecOps consulting services.  Matrix Resources provides IT Staffing & Managed Solutions across North America for Contracting and Direct Hire to include Telecom managed services and Agile & DevSecOps consulting services."
         },
         {
             "name": "Rho",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Rho.png",
             "description": "Rho is a full-service contract research organization optimally sized to deliver results from clinical research with agility and adaptability.  Rho is a full-service contract research organization optimally sized to deliver results from clinical research with agility and adaptability."
         },
         {
             "name": "Collabera",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Collabera.png",
             "description": "Collabera changed the way corporate staffing solutions and services are provided. Our mission has been to prioritize building our relationships over building our bottom line. Simply put, we care about people.  Collabera changed the way corporate staffing solutions and services are provided. Our mission has been to prioritize building our relationships over building our bottom line. Simply put, we care about people."
         },
         {
             "name": "WinterWyman",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/WinterWyman.png",
             "description": "WinterWyman One of the Northeast’s most recognized talent acquisition firms. For more than 45 years, we have helped thousands of companies – from Fortune 500 powerhouses to cutting-edge startups  WinterWyman One of the Northeast’s most recognized talent acquisition firms. For more than 45 years, we have helped thousands of companies – from Fortune 500 powerhouses to cutting-edge startups"
         },
         {
             "name": "Tata Consultancy Services TCS",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/TCS.png",
             "description": "Tata Consultancy Services (TCS) is an Indian multinational information technology (IT) services and consulting company with its headquarters in Mumbai. It is a part of the Tata Group and operates in 149 locations across 46 countries.  Tata Consultancy Services (TCS) is an Indian multinational information technology (IT) services and consulting company with its headquarters in Mumbai. It is a part of the Tata Group and operates in 149 locations across 46 countries."
         },
         {
-            "name": "Vsource  ",
-            "iconUrl": "",
+            "name": "Vsource",
+            "iconUrl": "./assets/img/client-logos/Vsource.png",
             "description": "Vsource was started and established in 2006 Vsource has been registered in the name of VSOURCE EDUCATIONAL CONSULTANTS on 25 march 2009 by the registrar of firms as No. 533 of 2009 at Hyderabad under state government of Andhra pradesh by section 58(1)of the indian partnership act 1932.  Vsource was started and established in 2006 Vsource has been registered in the name of VSOURCE EDUCATIONAL CONSULTANTS on 25 march 2009 by the registrar of firms as No. 533 of 2009 at Hyderabad under state government of Andhra pradesh by section 58(1)of the indian partnership act 1932."
         },
         {
             "name": "Marlabs Digital Technology Solutions",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/marlabs.jpg",
             "description": "Marlabs Digital Technology Solutions company that helps companies adopt digital transformation using a comprehensive Digital360 framework comprising of Digital Product Engineering.  Marlabs Digital Technology Solutions company that helps companies adopt digital transformation using a comprehensive Digital360 framework comprising of Digital Product Engineering."
         },
         {
             "name": "VDart Inc",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Vdart.png",
             "description": "VDart Inc. is an emerging global leader in IT staffing solutions headquartered in Alpharetta, Georgia. Since its inception in 2007, the organization has rapidly gained recognition as one of the fastest growing IT staffing firms in the nation.  VDart Inc. is an emerging global leader in IT staffing solutions headquartered in Alpharetta, Georgia. Since its inception in 2007, the organization has rapidly gained recognition as one of the fastest growing IT staffing firms in the nation."
         },
         {
             "name": "VSoft",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/VSoft-Logo_sm.png",
             "description": "VSoft is a leading global provider of innovatory banking and payments solutions to financial institutions of all sizes. The company’s original organizers founded VSoft in 1996 in Atlanta, Ga., and remain in leadership today.  VSoft is a leading global provider of innovatory banking and payments solutions to financial institutions of all sizes. The company’s original organizers founded VSoft in 1996 in Atlanta, Ga., and remain in leadership today."
         },
         {
             "name": "ACS",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/ACS Solutions.jpg",
             "description": "ACS Solutions is an IT consulting & services company partnering with mid-market and Fortune 1000 organizations worldwide on their digital transformation.  ACS Solutions is an IT consulting & services company partnering with mid-market and Fortune 1000 organizations worldwide on their digital transformation."
         },
         {
             "name": "Toyota",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/toyota-logos.png",
             "description": "Toyota is one of the biggest vehicle manufacturers, and one of the most widely known companies, in the world today.  Toyota is one of the biggest vehicle manufacturers, and one of the most widely known companies, in the world today."
         },
         {
             "name": "TEKsystems",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Teksystem.png",
             "description": "TEKsystems, we’re obsessed with technology. Its power to change everything. Technology fuels our passion and commitment to helping organisations do what they set out to.  TEKsystems, we’re obsessed with technology. Its power to change everything. Technology fuels our passion and commitment to helping organisations do what they set out to."
         },
         {
             "name": "Insight Global",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Insightglobal.png",
             "description": "Insight Global provides top talent and staffing solutions that help job seekers find careers in healthcare, finance, IT, and government.  Insight Global provides top talent and staffing solutions that help job seekers find careers in healthcare, finance, IT, and government."
         },
         {
             "name": "Randstad",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Randstad.png",
             "description": "Randstad is one of the top recruitment agencies in the world. Specialized in connecting people with the right jobs, and employers with the right people.  Randstad is one of the top recruitment agencies in the world. Specialized in connecting people with the right jobs, and employers with the right people."
         },
         {
             "name": "K Force",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/KForce.png",
             "description": "K Force was a military brigade of Bangladesh Forces in 1971 headed by Major Khaled Mosharraf as per the direction of the Provisional Government of Bangladesh in exile.  K Force was a military brigade of Bangladesh Forces in 1971 headed by Major Khaled Mosharraf as per the direction of the Provisional Government of Bangladesh in exile."
         },
         {
             "name": "DISYS",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Disys.png",
             "description": "DISYS is a global staffing, IT Consulting & Managed Services Firm Digital Intelligence Systems, LLC (DISYS) is a global staffing, IT consulting & managed services firm with more than 33 offices worldwide.  DISYS is a global staffing, IT Consulting & Managed Services Firm Digital Intelligence Systems, LLC (DISYS) is a global staffing, IT consulting & managed services firm with more than 33 offices worldwide."
         },
         {
             "name": "MDI Consultants, Inc",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/MDI.jpeg",
             "description": "MDI Consultants, Inc. is a leader in providing consulting services to the healthcare industry worldwide. We have extensive expertise in helping medical device.  MDI Consultants, Inc. is a leader in providing consulting services to the healthcare industry worldwide. We have extensive expertise in helping medical device."
         },
         {
             "name": "GalaxE Solutions, Inc.",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Galaxe.png",
             "description": "GalaxE Solutions, Inc. provides information technology services. The Company offers master data management, business intelligence, legacy application replatforming, end to end project development, and enterprise IT services.  GalaxE Solutions, Inc. provides information technology services. The Company offers master data management, business intelligence, legacy application replatforming, end to end project development, and enterprise IT services."
         },
         {
             "name": "Midtown Consulting Group",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Mcg.jpeg",
             "description": "Midtown Consulting Group is a management consulting firm located in Georgia, North Carolina, Tennessee, Neew York, and Florida.  Midtown Consulting Group is a management consulting firm located in Georgia, North Carolina, Tennessee, Neew York, and Florida."
         },
         {
             "name": "K2 Partnering Solutions",
-            "iconUrl": "",
-            "description": "K2 Partnering Solutions was formed in 1997 to provide enterprise software consultants for projects around the world.  K2 Partnering Solutions was formed in 1997 to provide enterprise software consultants for projects around the world."
-        },
-        {
-            "name": "K2 Partnering Solutions",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/K2.jpeg",
             "description": "K2 Partnering Solutions was formed in 1997 to provide enterprise software consultants for projects around the world.  K2 Partnering Solutions was formed in 1997 to provide enterprise software consultants for projects around the world."
         },
         {
             "name": "Ettain Group",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/ettain-group.png",
             "description": "Ettain Group is a talent solution company that delivers recruitment solutions and managed solutions in Technology, Healthcare IT, Digital, Professional.  Ettain Group is a talent solution company that delivers recruitment solutions and managed solutions in Technology, Healthcare IT, Digital, Professional."
         },
         {
             "name": "Xperia Consulting Private Limited",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Xperia-Logo.png",
             "description": "Xperia Consulting Private Limited is a Private incorporated on 08 August 2008. It is classified as Non-govt company and is registered at Registrar of Companies, Pune.  Xperia Consulting Private Limited is a Private incorporated on 08 August 2008. It is classified as Non-govt company and is registered at Registrar of Companies, Pune."
         },
         {
             "name": "Eclaro",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Eclaro.jpeg",
             "description": "Eclaro recruits, hires and manages top talent to enhance your business with the Right People. Award-winning custom outsourcing, strategic staffing.  Eclaro recruits, hires and manages top talent to enhance your business with the Right People. Award-winning custom outsourcing, strategic staffing."
         },
         {
             "name": "Signature Consulting Group",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Signature.png",
             "description": "Signature Consulting Group (SCG) is a woman-owned small business (WOSB), focused on Healthcare IT and business consulting.  Signature Consulting Group (SCG) is a woman-owned small business (WOSB), focused on Healthcare IT and business consulting."
         },
         {
             "name": "Strategic Solutions Inc.",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/StrategicSolutions.jpeg",
             "description": "Strategic Solutions Inc. is a company focused on providing lasting Business Solutions. SSI’s clients have experienced distinctive and substantial cost improvements throughout their business processes.  Strategic Solutions Inc. is a company focused on providing lasting Business Solutions. SSI’s clients have experienced distinctive and substantial cost improvements throughout their business processes."
         },
         {
             "name": "Turnberry",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Turnberry.jpg",
             "description": "Turnberry is basically a staffing firm that is very client based, but not employee focused. The account managers are slow to respond and will not actively look  Turnberry is basically a staffing firm that is very client based, but not employee focused. The account managers are slow to respond and will not actively look"
         },
         {
             "name": "ICON Consultants",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/IconConsultant.jpeg",
             "description": "ICON Consultants is your go-to resource for consulting, professional services, and managing large-scale staffing programs with hiring across multiple locations.  ICON Consultants is your go-to resource for consulting, professional services, and managing large-scale staffing programs with hiring across multiple locations."
         },
         {
             "name": "Gardner Resources Consulting",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/GardnerResourcesConsulting.png",
             "description": "Gardner Resources Consulting is taking the COVID-19 Pandemic very seriously. Our management team is closely following the advice and guidance of local, national, and global health organizations, including the CDC.  Gardner Resources Consulting is taking the COVID-19 Pandemic very seriously. Our management team is closely following the advice and guidance of local, national, and global health organizations, including the CDC."
         },
         {
             "name": "Rose IT Solutions Pvt Rose International",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/RoseITSolutions.png",
             "description": "Rose IT Solutions Pvt. Ltd. (RITS) is the offshore engine of the U.S. based company, Rose International.  Rose IT Solutions Pvt. Ltd. (RITS) is the offshore engine of the U.S. based company, Rose International."
         },
         {
             "name": "Atrium Staffing",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Atrium-logo-retina.png",
             "description": "Atrium Staffing is an applicant-centric staffing solutions firm. It is headquartered in New York, NY.  Atrium Staffing is an applicant-centric staffing solutions firm. It is headquartered in New York, NY."
         },
         {
             "name": "SGA delivers technology",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Sga.png",
             "description": "SGA delivers technology and resource solutions to help businesses solve IT challenges. Since 1981, we’ve built a deep understanding of the technical landscape. We’re proud to be a women-owned business.  SGA delivers technology and resource solutions to help businesses solve IT challenges. Since 1981, we’ve built a deep understanding of the technical landscape. We’re proud to be a women-owned business."
         },
         {
             "name": "Aditi Consulting",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/AditiConsulting.jpeg",
             "description": "Aditi Consulting is a leading consultancy that connects tech talent, tech teams, and project solutions to help our clients accelerate their digital journey.  Aditi Consulting is a leading consultancy that connects tech talent, tech teams, and project solutions to help our clients accelerate their digital journey."
         },
         {
             "name": "Stefanini",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Stefanini.png",
             "description": "Stefanini provides AI and IT solutions to transform business and build the solutions of tomorrow. We are a global company with 30 years of experience in the market, offering a robust selection of services such as automation, cloud, Internet of Things (IoT) and user experience (UX).  Stefanini provides AI and IT solutions to transform business and build the solutions of tomorrow. We are a global company with 30 years of experience in the market, offering a robust selection of services such as automation, cloud, Internet of Things (IoT) and user experience (UX)."
         },
         {
             "name": "Oxford",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Oxford.png",
             "description": "Oxford connects you to professionals with expertise in IT, Engineering, and Life Sciences. Whether it’s an individual consultant or a full project team.  Oxford connects you to professionals with expertise in IT, Engineering, and Life Sciences. Whether it’s an individual consultant or a full project team."
         },
         {
             "name": "TPA technologies",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/TPA.png",
             "description": "TPA technologies is a technology-consulting firm serving the information technology needs of corporate America and government business partners.  TPA technologies is a technology-consulting firm serving the information technology needs of corporate America and government business partners."
         },
         {
             "name": "Amplified Sourcing",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Amplifiedsourcing.jpeg",
             "description": "Amplified Sourcing is a people sourcing company. Contractors, direct hires, or contract-to-hire … we do it all. What makes us special though is that we are built to amplify four key aspects of your talent sourcing  Amplified Sourcing is a people sourcing company. Contractors, direct hires, or contract-to-hire … we do it all. What makes us special though is that we are built to amplify four key aspects of your talent sourcing"
         },
         {
             "name": "DeWinter Group",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/DCWinergroup.png",
             "description": "DeWinter Group is the premier provider of accounting, finance, & IT professional staffing on an executive search, consulting & contract basis  DeWinter Group is the premier provider of accounting, finance, & IT professional staffing on an executive search, consulting & contract basis"
         },
         {
             "name": "BICITIS Group",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/BICITISGroup.png",
             "description": "BICITIS Group, Inc. uses its vast network of resources to find clients the personnel to meet the needs of any project. Whether your needs include Project  BICITIS Group, Inc. uses its vast network of resources to find clients the personnel to meet the needs of any project. Whether your needs include Project"
         },
         {
             "name": "ThreeBridge Solutions",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/ThreeBridgeSolutions.jpg",
             "description": "ThreeBridge Solutions is a national provider of Talent, Training, and Advice within their core solutions: Business Transformation, Cloud Enablement, Digital, and Smart Data.  ThreeBridge Solutions is a national provider of Talent, Training, and Advice within their core solutions: Business Transformation, Cloud Enablement, Digital, and Smart Data."
         },
         {
             "name": "NTT DATA",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/NTT-Data-Logo.png",
             "description": "NTT DATA Services’ consultative approach and deep industry expertise delivers practical and scalable IT solutions to accelerate your digital journey.  NTT DATA Services’ consultative approach and deep industry expertise delivers practical and scalable IT solutions to accelerate your digital journey."
         },
         {
             "name": "Open Systems Technologies",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/ost-open-systems-technologies-vector-logo.png",
             "description": "Open Systems Technologies is a tier-one vendor for the world’s most competitive financial and technology companies, offering both fulltime and contract  Open Systems Technologies is a tier-one vendor for the world’s most competitive financial and technology companies, offering both fulltime and contract"
         },
         {
             "name": "Envision PROVIDES",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Envision.png",
             "description": "Envision PROVIDES a total solution for REACHING your net zero goals · energy solutions. Wind Power; Hydrogen; Solar; Energy Storage · E-MOBILITY SOLUTIONS.  Envision PROVIDES a total solution for REACHING your net zero goals · energy solutions. Wind Power; Hydrogen; Solar; Energy Storage · E-MOBILITY SOLUTIONS."
         },
         {
-            "name": "Open Systems Technologies (OST)",
-            "iconUrl": "",
-            "description": "Open Systems Technologies (OST) Corporation is a technology solutions specializing in high-end security solutions for large-scale enterprises.  Open Systems Technologies (OST) Corporation is a technology solutions specializing in high-end security solutions for large-scale enterprises."
-        },
-        {
             "name": "VincentBenjamin",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/VincentBenjamin_Logo_NEW.png",
             "description": "VincentBenjamin recruiters stand out with authority nationwide with deep-rooted connections within the local community. Whether near or far, we’re experts  VincentBenjamin recruiters stand out with authority nationwide with deep-rooted connections within the local community. Whether near or far, we’re experts"
         },
         {
-            "name": "",
-            "iconUrl": "",
-            "description": "User-generated content (UGC), alternatively known as user-created content (UCC), is any form of content, such as images, videos, text, and audio, that has been posted by users on online platforms such as social media, discussion forums.  User-generated content (UGC), alternatively known as user-created content (UCC), is any form of content, such as images, videos, text, and audio, that has been posted by users on online platforms such as social media, discussion forums."
-        },
-        {
             "name": "Innovative Systems",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/innovative-logo.png",
             "description": "Innovative Systems And Innovation logo ideas? We’ve collected some amazing examples of innovative logos, designs & images from our global design community.  Innovative Systems And Innovation logo ideas? We’ve collected some amazing examples of innovative logos, designs & images from our global design community."
         },
         {
             "name": "City Consulting",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/BICITISGroup.png",
             "description": "City Consulting is approaching your business needs horizontally in all these sectors, providing complete solutions and services, maximizing the efficiency of  City Consulting is approaching your business needs horizontally in all these sectors, providing complete solutions and services, maximizing the efficiency of"
         },
         {
             "name": "DeWinter Group",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/DCWinergroup.png",
             "description": "DeWinter Group is the premier provider of accounting, finance, & IT professional staffing on an executive search, consulting & contract basis  DeWinter Group is the premier provider of accounting, finance, & IT professional staffing on an executive search, consulting & contract basis"
         },
         {
             "name": "IIT Inc.",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/IIT.jpg",
             "description": "IIT Inc. IT Services and IT Consulting. Melville, New York 1,269 followers. Staffing and Consulting Solutions for Government Agencies and Public Sector.  IIT Inc. IT Services and IT Consulting. Melville, New York 1,269 followers. Staffing and Consulting Solutions for Government Agencies and Public Sector."
         },
         {
             "name": "Blackstone Technology",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Blackstone-Tech-Group.png",
             "description": "Blackstone Technology Group is the parent company of Blackstone Talent Group and Trellis Energy, two dynamic technology services and software firms that are providing leading edge solutions in the Talent Management and Energy marketplaces.  Blackstone Technology Group is the parent company of Blackstone Talent Group and Trellis Energy, two dynamic technology services and software firms that are providing leading edge solutions in the Talent Management and Energy marketplaces."
         },
         {
             "name": "Oxford Global Resources",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Oxford.jpeg",
             "description": "Oxford Global Resources is a talent-driven staffing and consulting company with more than 30 offices across North America and Europe.  Oxford Global Resources is a talent-driven staffing and consulting company with more than 30 offices across North America and Europe."
         },
         {
             "name": "RightClick",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Rho.png",
             "description": "RightClick was founded in 2010 based on our belief that the IT recruiting and staffing industry needed a major reboot. Our leadership team has over 30 years of combined experience, but we attribute our success to the fact that we aren’t afraid to challenge the status quo, even if it’s our own.  RightClick was founded in 2010 based on our belief that the IT recruiting and staffing industry needed a major reboot. Our leadership team has over 30 years of combined experience, but we attribute our success to the fact that we aren’t afraid to challenge the status quo, even if it’s our own."
         },
         {
             "name": "Lucas Group",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/LugasGroup.png",
             "description": "Lucas Group recruiters have been positively impacting businesses and careers one conversation at a time.  Lucas Group recruiters have been positively impacting businesses and careers one conversation at a time."
         },
         {
             "name": "Fidelity TalentSource",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/Fidelitytalentsource.png",
             "description": "Fidelity TalentSource is your destination for discovering your next temporary role at Fidelity Investments. Whatever your expertise – from high-level IT and financial services consulting, to administrative and call center support – we offer assignments suited to meet a broad range of skills, ambitions and goals.  Fidelity TalentSource is your destination for discovering your next temporary role at Fidelity Investments. Whatever your expertise – from high-level IT and financial services consulting, to administrative and call center support – we offer assignments suited to meet a broad range of skills, ambitions and goals."
         },
         {
             "name": "Antibody-dependent cellular cytotoxicity (ADCC)",
-            "iconUrl": "",
+            "iconUrl": "./assets/img/client-logos/ADCC.jpeg",
             "description": "Antibody-dependent cellular cytotoxicity (ADCC), also called antibody-dependent cell-mediated cytotoxicity, is an immune mechanism through which Fc receptor.  Antibody-dependent cellular cytotoxicity (ADCC), also called antibody-dependent cell-mediated cytotoxicity, is an immune mechanism through which Fc receptor."
         }
     ]

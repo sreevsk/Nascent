@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { EmailService } from '../email.service';
 import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 import data from '@assets/properties/gis-services-data.json';
-import globalProperties from '@assets/properties/global-properties.json';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -17,7 +16,6 @@ export class GisServicesComponent implements OnInit {
   notificationModalPositive;
   // myForm: FormGroup;
 
-  private emailConfig = globalProperties["emailConfig"];
   private gisItems = data["gisItems"];
   private dpItems = data["dpItems"];
   private uavItems = data["uavItems"];
@@ -36,7 +34,7 @@ export class GisServicesComponent implements OnInit {
   myForm() {
     this.requiredForm = this.fb.group({
       name: ['', Validators.required],
-      message: ['', [Validators.required, Validators.minLength(5)]],
+      message: ['', [Validators.required, Validators.minLength(10)]],
       email: ['', [Validators.required,
       Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$")]],
       phoneNumber: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(10), Validators.pattern('^[0-9]+$')]],
@@ -54,28 +52,24 @@ export class GisServicesComponent implements OnInit {
     if (!this.requiredForm.valid) {
       this.markFormFieldsAsTouched();
     } else {
-      const apiKey = this.emailConfig["apiKey"];
       const subject = 'Questions on GIS - Services';
-      const from = this.emailConfig["from"];
-      const fromName = this.emailConfig["fromName"];
-      const to = this.emailConfig["to"];
       const bodyHtml = '<p> Name : ' + this.requiredForm.value.name + '</p> <br>'
         + '<p> Mail : ' + this.requiredForm.value.email + '</p> <br>'
         + '<p> Telephone : ' + this.requiredForm.value.phoneNumber + '</p> <br>'
         + '<p> Message : ' + this.requiredForm.value.message + '</p> <br>';
 
       this.emailService
-        .sendEmail(apiKey, subject, from, fromName, to, bodyHtml, "")
+        .sendEmail(subject, bodyHtml, null)
         .subscribe(
           (response) => {
             if (response.success) {
               this.openModal(content, true);
+              console.log('Email sent successfully' + JSON.stringify(response));
             }
             else {
               this.openModal(content, false);
-
+              console.log('Error sending email from the response');
             }
-            console.log('Email sent successfully' + JSON.stringify(response));
           },
           (error) => {
             this.openModal(content, false);
@@ -90,7 +84,13 @@ export class GisServicesComponent implements OnInit {
     this.notificationModalPositive = isPositive;
     this.modalService.open(content, { windowClass: 'modal-mini', centered: true }).result.then((result) => {
       console.log(`Closed with: ${result}`);
+      if (this.notificationModalPositive) {
+        this.requiredForm.reset();
+      }
     }, (reason) => {
+      if (this.notificationModalPositive) {
+        this.requiredForm.reset();
+      }
       console.log(`Dismissed ${this.getDismissReason(reason)}`);
     });
   }

@@ -16,7 +16,7 @@
               <img src="./assets/img/brand/logo-wt-1.png">
             </a>
           </div>
-          <div class="col-6 collapse-close">
+          <div class="col-5 collapse-close">
             <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
               [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
               <span></span>
@@ -26,17 +26,20 @@
         </div>
       </div>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-        <li class="nav-item">
-          <a class="shadow--hover nav-link no-caret" role="button" [routerLink]="['/home']" routerLinkActive="active-link">
+        <li class=" nav-item shadow--hover">
+          <a class="nav-link no-caret" role="button" [routerLink]="['/home']" routerLinkActive="active-link">
+            <i class="ni ni-building d-lg-none"></i>
             <span class="nav-link-inner--text">Home</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="shadow--hover nav-link no-caret" role="button" [routerLink]="['/about-us']" routerLinkActive="active-link">
+          <a class="shadow--hover nav-link no-caret" role="button" [routerLink]="['/about-us']"
+            routerLinkActive="active-link">
+            <i class="ni ni-world d-lg-none"></i>
             <span class="nav-link-inner--text">About Us</span>
           </a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ns-d-sm-none">
           <a class="shadow--hover nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-bold-down"></i>
             <span class="nav-link-inner--text">Services</span>
@@ -50,13 +53,40 @@
               class="shadow-lg--hover dropdown-item">GIS Services</a>
           </div>
         </li>
+
+        <!-- Visible only in the ham burger  menu -->
+        <li class="nav-item  d-lg-none">
+          <a class="shadow--hover shadow--hover nav-link no-caret" role="button" routerLinkActive="active-link"
+            [routerLink]="['/it-consulting']">
+            <i class="ni ni-bold-right"></i>
+            <span class="nav-link-inner--text">IT Consulting Services</span>
+          </a>
+        </li>
+        <li class="nav-item  d-lg-none">
+          <a class="shadow--hover shadow--hover nav-link no-caret" role="button" routerLinkActive="active-link"
+            [routerLink]="['/it-project']">
+            <i class="ni ni-bold-right"></i>
+            <span class="nav-link-inner--text">IT Project Services</span>
+          </a>
+        </li>
+        <li class="nav-item  d-lg-none">
+          <a class="shadow--hover shadow--hover nav-link no-caret" role="button" routerLinkActive="active-link"
+            [routerLink]="['/gis-services']">
+            <i class="ni ni-bold-right"></i>
+            <span class="nav-link-inner--text">GIS Services</span>
+          </a>
+        </li>
+
+
+
         <li class="nav-item">
-          <a class="shadow--hover shadow--hover nav-link no-caret" role="button" routerLinkActive="active-link" [routerLink]="['/support']">
-            <i class="ni ni-collection d-lg-none"></i>
+          <a class="shadow--hover shadow--hover nav-link no-caret" role="button" routerLinkActive="active-link"
+            [routerLink]="['/support']">
+            <i class="ni ni-support-16 d-lg-none"></i>
             <span class="nav-link-inner--text">Support</span>
           </a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ns-d-sm-none">
           <a class="shadow--hover nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-bold-down"></i>
             <span class="nav-link-inner--text">Our Catalogue</span>
@@ -68,8 +98,26 @@
               Jobs</a>
           </div>
         </li>
+
+        <li class="nav-item d-lg-none">
+          <a class="nav-link no-caret shadow--hover" role="button" routerLinkActive="active-link"
+            [routerLink]="['/our-portfolio']">
+            <i class="ni ni-bold-right d-lg-none"></i>
+            <span class="nav-link-inner--text">Our Portfolio</span>
+          </a>
+        </li>
+        <li class="nav-item d-lg-none">
+          <a class="nav-link no-caret shadow--hover" role="button" routerLinkActive="active-link"
+            [routerLink]="['/our-jobs']">
+            <i class="ni ni-bold-right d-lg-none"></i>
+            <span class="nav-link-inner--text">Our Jobs</span>
+          </a>
+        </li>
+
+
         <li class="nav-item">
-          <a class="nav-link no-caret shadow--hover" role="button" routerLinkActive="active-link" [routerLink]="['/contact-us']">
+          <a class="nav-link no-caret shadow--hover" role="button" routerLinkActive="active-link"
+            [routerLink]="['/contact-us']">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Contact Us</span>
           </a>

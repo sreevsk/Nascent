@@ -22,7 +22,7 @@
                     <div class="row row-grid">
                         <div data-aos="zoom-out" class="col-lg-12">
                             <div class="card card-lift--hover shadow border-0">
-                                <div class="card-header">
+                                <div class="card-header header-icon-div">
                                     <span class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
                                         <i class="fa fa-suitcase"></i>
                                     </span>
@@ -37,8 +37,8 @@
                                             class="col-lg-12 row">
                                             <div class="col-lg-4">
                                                 <span class="font-weight-bold">{{nameSet[name]}}</span>
+                                                <span class="pl-5 font-weight-bold">:</span>
                                             </div>
-                                            <div class="col-lg1">:</div>
                                             <div class="col-lg-7">{{currentJobInfo.details[name]}}</div>
                                         </div>
 
@@ -59,15 +59,7 @@
                                                             {{listItem}}</li>
                                                     </ul>
                                                 </div>
-                                                <!-- <div *ngFor="let topList of currentJobInfo.details[name]"
-                                                    class="col-lg-12">
-                                                    <div class="col-lg-12 pb-1 pt-1">
-                                                        {{topList['notes']}}</div>
-                                                    <ul>
-                                                        <li *ngFor="let listItem of topList['list']">
-                                                            {{listItem}}</li>
-                                                    </ul>
-                                                </div> -->
+
                                             </div>
                                         </ng-template>
                                     </div>
@@ -102,15 +94,22 @@
                                                         </div>
                                                     </div>
                                                     <div class="card-body px-lg-5 py-lg-5">
-                                                        <form role="form">
+                                                        <form [formGroup]="requiredForm" novalidate>
                                                             <div class="form-group">
                                                                 <div class="input-group input-group-alternative mb-3">
                                                                     <div class="input-group-prepend">
                                                                         <span class="input-group-text"><i
                                                                                 class="ni ni-hat-3"></i></span>
                                                                     </div>
-                                                                    <input class="form-control" placeholder="Name"
-                                                                        type="text">
+                                                                    <input formControlName="name" class="form-control"
+                                                                        placeholder="Name" type="text">
+                                                                </div>
+                                                                <div *ngIf="requiredForm.controls['name'].invalid && requiredForm.controls['name'].touched"
+                                                                    class="pl-1 color-alert">
+                                                                    <div
+                                                                        *ngIf="requiredForm.controls['name'].errors.required">
+                                                                        Name is required.
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group">
@@ -119,8 +118,18 @@
                                                                         <span class="input-group-text"><i
                                                                                 class="ni ni-email-83"></i></span>
                                                                     </div>
-                                                                    <input class="form-control" placeholder="Email"
-                                                                        type="email">
+                                                                    <input formControlName="email" class="form-control"
+                                                                        placeholder="Email" type="email">
+                                                                </div>
+                                                                <div *ngIf="requiredForm.controls['email'].invalid && requiredForm.controls['email'].touched"
+                                                                    class="pl-1 color-alert  mt-3">
+                                                                    <div
+                                                                        *ngIf="requiredForm.controls['email'].errors.required; else elseBlock">
+                                                                        Email is required.
+                                                                    </div>
+                                                                    <ng-template #elseBlock>
+                                                                        Please Enter Valid Email
+                                                                    </ng-template>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group focused">
@@ -129,10 +138,19 @@
                                                                         <span class="input-group-text"><i
                                                                                 class="ni ni-mobile-button"></i></span>
                                                                     </div>
-                                                                    <input class="form-control" placeholder="Telephone"
-                                                                        type="tel" id="phone" name="phone"
-                                                                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-
+                                                                    <input formControlName="phoneNumber"
+                                                                        class="form-control" placeholder="Telephone"
+                                                                        type="tel" id="phone" name="phone">
+                                                                </div>
+                                                                <div *ngIf="requiredForm.controls['phoneNumber'].invalid && requiredForm.controls['phoneNumber'].touched"
+                                                                    class="pl-1 color-alert  mt-3">
+                                                                    <div
+                                                                        *ngIf="requiredForm.controls['phoneNumber'].errors.required; else elseBlock">
+                                                                        Telephone Number is required.
+                                                                    </div>
+                                                                    <ng-template #elseBlock>
+                                                                        Please Enter Valid Telephone.
+                                                                    </ng-template>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group focused">
@@ -141,19 +159,32 @@
                                                                         <span class="input-group-text"><i
                                                                                 class="ni ni-email-83"></i></span>
                                                                     </div>
-                                                                    <textarea class="form-control"
+                                                                    <textarea formControlName="coverLetter"
+                                                                        class="form-control"
                                                                         id="exampleFormControlTextarea1" rows="3"
                                                                         placeholder="Cover Letter"></textarea>
+                                                                </div>
+                                                                <div *ngIf="requiredForm.controls['coverLetter'].invalid && requiredForm.controls['coverLetter'].touched"
+                                                                    class="pl-1 color-alert mt-3">
+                                                                    <div
+                                                                        *ngIf="requiredForm.controls['coverLetter'].errors.required; else elseBlock">
+                                                                        Cover Letter is required.
+                                                                    </div>
+                                                                    <ng-template #elseBlock>
+                                                                        Please enter minimum 10 characters.
+                                                                    </ng-template>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group focused">
                                                                 <div class="input-group">
                                                                     <span>Upload CV/Resume</span>
-                                                                    <input type="file" name="awsm_file" class="pt-5"
-                                                                        style="margin-left:-130px"
-                                                                        id="awsm-application-file" required=""
-                                                                        data-msg-required="This field is required."
+                                                                    <input id="resume" type="file" name="awsm_file"
+                                                                        class="pl-4" formControlName="resume" #fileInput
                                                                         accept=".pdf, .doc, .docx">
+                                                                </div>
+                                                                <div class="pl-1 color-alert mt-3"
+                                                                    *ngIf="requiredForm.get('resume').invalid && requiredForm.get('resume').touched">
+                                                                    Please upload the Resume.
                                                                 </div>
                                                             </div>
                                                             <div class="row my-4">
@@ -161,6 +192,7 @@
                                                                     <div
                                                                         class="custom-control custom-control-alternative custom-checkbox">
                                                                         <input class="custom-control-input"
+                                                                            formControlName="agreementChecked"
                                                                             id="customCheckRegister" type="checkbox">
                                                                         <label class="custom-control-label"
                                                                             for="customCheckRegister"><span>
@@ -168,11 +200,42 @@
                                                                                 storage and handling of your
                                                                                 data by this website.</span></label>
                                                                     </div>
+                                                                    <div class="pl-1 color-alert mt-3"
+                                                                        *ngIf="requiredForm.get('agreementChecked').invalid && requiredForm.get('agreementChecked').touched">
+                                                                        You must agree to the terms and conditions.
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                             <div class="text-center">
-                                                                <button type="button"
+                                                                <button (click)="sendEmail(classic2)" type="button"
                                                                     class="btn btn-primary mt-4">Submit</button>
+                                                                <ng-template #classic2 let-c="close" let-d="dismiss">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-body">
+                                                                            <div class="py-3 text-center">
+                                                                                <div
+                                                                                    *ngIf="notificationModalPositive; else elseBlock">
+                                                                                    <h5 class="mt-2">We've received your
+                                                                                        question.<br> Our team will
+                                                                                        get back to you soon.</h5>
+                                                                                </div>
+                                                                                <ng-template #elseBlock>
+                                                                                    <h5 class="mt-2">We apologize, but
+                                                                                        it seems there's a technical
+                                                                                        glitch at the
+                                                                                        moment. Please refresh the page
+                                                                                        and try again.</h5>
+                                                                                </ng-template>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="modal-footer justify-content-start">
+                                                                            <button type="button"
+                                                                                (click)="c('Close click')"
+                                                                                class="btn btn-primary">Ok, Got
+                                                                                it</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </ng-template>
                                                             </div>
                                                         </form>
                                                     </div>

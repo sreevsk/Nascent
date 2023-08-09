@@ -49,24 +49,24 @@
                                         upgrading desktops to the newest version of Windows, Tech Support is there.
                                         That’s what we do.
                                     </p>
-                                    <div class="pl-3 pr-3 pt-4 pb-1">
+                                    <div class="pl-3 pr-3 pt-4 pb-1 support-items">
                                         <div *ngFor="let item of customArray" data-aos="zoom-in" class="row pb-2">
                                             <div class="col-lg-6">
                                                 <div class="card card-lift--hover shadow border-0 p-2">
                                                     <div class="icon icon-shape icon-shape-primary rounded-circle">
                                                         <i class="ni ni-bold-right"></i>
                                                     </div>
-                                                    <span class="ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
+                                                    <span class="item-text ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
                                                         {{ supportItems[item].text }} </span>
                                                 </div>
                                             </div>
                                             <ng-container *ngIf="supportItems[item + 1]">
-                                                <div class="col-lg-6">
+                                                <div class="col-right col-lg-6">
                                                     <div class="card card-lift--hover shadow border-0 p-2">
                                                         <div class="icon icon-shape icon-shape-primary rounded-circle">
                                                             <i class="ni ni-bold-right"></i>
                                                         </div>
-                                                        <span class="ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
+                                                        <span class="item-text ns-fs-11 mt-0 pl-lg-md position-fixed pt-2">
                                                             {{ supportItems[item+1].text }} </span>
                                                     </div>
                                                 </div>
@@ -85,7 +85,7 @@
     <section class="section pb-lg bg-gradient-primary">
         <div class="container">
             <div data-aos="zoom-out" class="px-3">
-                <div class="pb-3">
+                <div class="header-icon-div pb-3">
                     <span class="icon icon-shape bg-gradient-white shadow rounded-circle">
                         <i class="fa fa-handshake-o"></i>
                     </span>
@@ -182,7 +182,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" class="col-lg-4">
+                        <div data-aos="zoom-in" class="col-right col-lg-4">
                             <div class="card card-lift--hover shadow border-0 height-100">
                                 <div class="card-body py-5">
                                     <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
@@ -197,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" class="col-lg-4">
+                        <div data-aos="zoom-in" class="col-right col-lg-4">
                             <div class="card card-lift--hover shadow border-0 height-100">
                                 <div class="card-body py-5">
                                     <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
@@ -212,7 +212,7 @@
                         </div>
                     </div>
                     <div class="row pt-lg-sm">
-                        <div data-aos="zoom-in" class="col-lg-4">
+                        <div data-aos="zoom-in" class="col-right col-lg-4">
                             <div class="card card-lift--hover shadow border-0 height-100">
                                 <div class="card-body py-5">
                                     <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
@@ -225,7 +225,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" class="col-lg-4">
+                        <div data-aos="zoom-in" class="col-right col-lg-4">
                             <div class="card card-lift--hover shadow border-0 height-100">
                                 <div class="card-body py-5">
                                     <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
@@ -238,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" class="col-lg-4">
+                        <div data-aos="zoom-in" class="col-right col-lg-4">
                             <div class="card card-lift--hover shadow border-0 height-100">
                                 <div class="card-body py-5">
                                     <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
@@ -268,21 +268,20 @@
     <section class="section pb-4">
         <div class="container">
             <div data-aos="zoom-out" class="px-3">
-                <div class="pb-3">
-                    <div
+                <div class="pb-3 header-icon-div">
+                    <!-- <div
                         class="icon-heading-container icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
                         <i class="fa fa-life-ring"></i>
                         <h2 class="display-3 text-primary">Monitoring Team Support</h2>
-                    </div>
+                    </div> -->
 
-                    <!-- <span class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <span class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
                         <i class="fa fa-life-ring"></i>
                     </span>
                     <div class="header-icon-title">
                         <h2 class="display-3 text-primary pl-2">Monitoring Team Support</h2>
-                    </div> -->
+                    </div>
                 </div>
-
                 <div class="pb-4">
                     <p class=" ns-fs-11">Like many IT operations teams, you don’t lack monitoring. In fact,
                         the opposite is true—getting too many irrelevant events can drown out meaningful information. So

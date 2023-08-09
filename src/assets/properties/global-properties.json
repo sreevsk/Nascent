@@ -1,8 +1,10 @@
 {
+    
     "emailConfig": {
-        "apiKey": "483293294188A3EE53717F09016D61E9BA9326C087D60AAB8F3EE8D94EE63DCD188CD8638236B98DF07ADD9817F950C3",
-        "from": "vomasrikanth5209@gmail.com",
-        "to": "vomasrikanth143@gmail.com",
+        "apiKey": "48B297BACA1E7C1921AD0CB2A1C75A7396B9A18274DA867F82B63355F10F118937C75580BCBC80C23F8EE32CBB61DCDB",
+        "from": "nathan@nascenttechnologiesinc.com",
+        "to": "vomasrikanth5209@gmail.com",
         "fromName": "Nascent"
     }
+    
 }

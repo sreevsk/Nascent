@@ -11,13 +11,14 @@
     font-family: 'Poiret One', sans-serif !important;
     font-weight: bolder;
     letter-spacing: 0.05em;
+
     .nav-link-inner--text {
         margin-left: 0rem !important;
     }
 }
 
-.navbar-nav .nav-item :hover {
-    // background-color: #212529;
+.navbar-nav .nav-item a:hover {
+    background-color: #8898aa;
 }
 
 .navbar-brand {
@@ -28,10 +29,19 @@
     font-family: 'Poiret One', sans-serif;
 }
 
+.nav-link i:not(.fa) {
+    left: 5px !important;
+}
+
+.nav-link-inner--text {
+    left: 10px;
+    position: relative;
+}
 
 
+@media screen and (max-width: 950px) {
+    .ns-d-sm-none {
+        display: none !important;
+    }
 
-  
-  .active-link a:hover:before {
-   
-  }
+}

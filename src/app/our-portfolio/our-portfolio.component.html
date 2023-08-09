@@ -49,13 +49,13 @@
     <section class="section section-lg pt-lg-0">
         <div class="container">
             <div class="row justify-content-center pt-3">
-                <div *ngFor="let i of customArray"
-                    data-aos="zoom-in" class="row pt-3">
+                <div *ngFor="let i of customArray" data-aos="zoom-in" class="row pt-3">
                     <div class="col-lg-6 pb-3">
                         <div class="card card-lift--hover shadow border-0 height-100">
                             <div class="card-body py-5">
-                                <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                                    <i class="fa fa-cogs"></i>
+                                <div class="mb-4">
+                                    <img alt="Company Logo" class="img-fluid rounded shadow p-3"
+                                        src="{{portfolioItems[i].iconUrl}}" style="width: 100px;">
                                 </div>
                                 <h6 class="text-primary text-uppercase">{{portfolioItems[i].name}}</h6>
                                 <p class="ns-fs-11 description mt-3">{{portfolioItems[i].description}}</p>
@@ -67,8 +67,9 @@
                         <div class="col-lg-6 pb-3">
                             <div class="card card-lift--hover shadow border-0 height-100">
                                 <div class="card-body py-5">
-                                    <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                                        <i class="fa fa-cogs"></i>
+                                    <div class="mb-4">
+                                        <img alt="Circle image" class="img-fluid rounded shadow p-3"
+                                            src="{{portfolioItems[i+1].iconUrl}}" style="width: 100px;">
                                     </div>
                                     <h6 class="text-primary text-uppercase">{{portfolioItems[i+1].name}}</h6>
                                     <p class="ns-fs-11 description mt-3">{{portfolioItems[i+1].description}}</p>
