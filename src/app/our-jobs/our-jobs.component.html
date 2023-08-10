@@ -49,11 +49,57 @@
         </div>
     </section>
 
-    <section class="section section-lg pt-lg-0">
+    <section class="section section-lg pt-lg-lg">
         <div class="container">
-
             <div class="form-group">
-                <input type="text" placeholder="Regular" class="form-control form-control-alternative">
+                <div class="row">
+                    <div class="col-lg-3 p-3">
+                        <div class="input-group input-group-alternative shadow">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                            <input [(ngModel)]="searchText" (keyup.enter)="onSearch()" class="form-control" placeholder="Search" name="search">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 p-3">
+                        <div class="" ngbDropdown>
+                            <button class="text-capitalize btn btn-secondary dropdown-toggle" type="button"
+                                id="jobCategory" style="width: 160px;" ngbDropdownToggle>
+                                All Job Category
+                            </button>
+                            <div class="" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
+                                <a *ngFor="let category of jobCategories" class="dropdown-item"
+                                    (click)="filter(category, 'jobCategory')" href="javascript:void(0)">{{category}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 p-3">
+                        <div class="" ngbDropdown>
+                            <button class="text-capitalize btn btn-secondary dropdown-toggle" type="button" id="jobType"
+                                style="width: 160px;" ngbDropdownToggle>
+                                All Job Type
+                            </button>
+                            <div class="" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
+                                <a *ngFor="let type of jobTypes" class="dropdown-item" (click)="filter(type, 'type')"
+                                    href="javascript:void(0)">{{type}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 p-3">
+                        <div class="" ngbDropdown>
+                            <button class="text-capitalize btn btn-secondary dropdown-toggle" type="button"
+                                id="jobLocation" style="width: 160px;" ngbDropdownToggle>
+                                All Job Location
+                            </button>
+                            <div class="" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
+                                <a *ngFor="let location of jobLocations" class="dropdown-item"
+                                    (click)="filter(location, 'location')" href="javascript:void(0)">{{location}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="justify-content-center pt-3">
                 <div *ngFor="let i of customArray" data-aos="zoom-in" class="row pt-3">

@@ -19,6 +19,7 @@
 
 .navbar-nav .nav-item a:hover {
     background-color: #8898aa;
+    border-radius: 5px;
 }
 
 .navbar-brand {
@@ -34,7 +35,7 @@
 }
 
 .nav-link-inner--text {
-    left: 10px;
+    left: px;
     position: relative;
 }
 
@@ -43,5 +44,8 @@
     .ns-d-sm-none {
         display: none !important;
     }
-
+    .nav-link-inner--text {
+        left: 10px;
+        position: relative;
+    }
 }

@@ -162,7 +162,7 @@
         {
             "title": "Lead Mainframe Developer",
             "jobCategory": "DEVELOPS",
-            "type": "Full Time",
+            "type": "Contract",
             "location": "Local South FL Only (no relocation)",
             "available": true,
             "details": {
@@ -812,7 +812,7 @@
             "jobCategory": "Software",
             "type": "Full Time",
             "location": "Morris Plains",
-            "available": false,
+            "available": true,
             "details": {
                 "jobId": " 2022-0803",
                 "jobTitle": " AWS Application Architect / Lead Engineer",

@@ -35,19 +35,19 @@
                                     <div class="row" *ngFor="let name of nameSetKeys">
                                         <div *ngIf="nameSet[name]['type']!='List' ; else elseBlock"
                                             class="col-lg-12 row">
-                                            <div class="col-lg-4">
+                                            <div class="col-lg-4 col-3">
                                                 <span class="font-weight-bold">{{nameSet[name]}}</span>
-                                                <span class="pl-5 font-weight-bold">:</span>
                                             </div>
-                                            <div class="col-lg-7">{{currentJobInfo.details[name]}}</div>
+                                             <div class="col-lg-1 col-1">:</div>
+                                            <div class="col-lg-7 col-8">{{currentJobInfo.details[name]}}</div>
                                         </div>
 
                                         <ng-template #elseBlock>
                                             <div class="col-lg-12 row">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 col-3">
                                                     <span class="font-weight-bold">{{nameSet[name]['title']}}</span>
                                                 </div>
-                                                <div class="col-lg1">:</div>
+                                                <div class="col-lg-1 col-1">:</div>
                                                 <div class="col-lg-12 pb-1 pt-1">
                                                     {{currentJobInfo.details[name]['notes']}}</div>
                                                 <div *ngFor="let jobList of currentJobInfo.details[name]['list']"
@@ -64,25 +64,25 @@
                                         </ng-template>
                                     </div>
                                     <div class="row pt-3">
-                                        <div class="col-lg-2">
+                                        <div class="col-lg-3 col-3">
                                             <span class="font-weight-bold">Job Category</span>
                                         </div>
                                         <div class="col-lg1">:</div>
-                                        <div class="col-lg-7">{{currentJobInfo['jobCategory']}}</div>
+                                        <div class="col-lg-7 col-8">{{currentJobInfo['jobCategory']}}</div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-2">
+                                        <div class="col-lg-2 col-3">
                                             <span class="font-weight-bold">Job Type</span>
                                         </div>
                                         <div class="col-lg1">:</div>
-                                        <div class="col-lg-7">{{currentJobInfo['type']}}</div>
+                                        <div class="col-lg-7 col-8">{{currentJobInfo['type']}}</div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-2">
+                                        <div class="col-lg-2 col-3">
                                             <span class="font-weight-bold">Job Location</span>
                                         </div>
                                         <div class="col-lg1">:</div>
-                                        <div class="col-lg-7">{{currentJobInfo['location']}}</div>
+                                        <div class="col-lg-7 col-8">{{currentJobInfo['location']}}</div>
                                     </div>
                                     <div class="container pt-lg-7 pt-3 pb-3">
                                         <div class="row justify-content-center">
