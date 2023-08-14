@@ -54,50 +54,62 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-lg-3 p-3">
-                        <div class="input-group input-group-alternative shadow">
+                        <div class="input-group input-group-alternative">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
                                     <i class="fa fa-search"></i>
                                 </span>
                             </div>
-                            <input [(ngModel)]="searchText" (keyup.enter)="onSearch()" class="form-control" placeholder="Search" name="search">
+                            <input [(ngModel)]="searchText" (keyup.enter)="filter()" class="form-control"
+                                placeholder="Search" name="search">
                         </div>
                     </div>
-                    <div class="col-lg-2 p-3">
+                    <div class="col-lg-3 p-3">
                         <div class="" ngbDropdown>
-                            <button class="text-capitalize btn btn-secondary dropdown-toggle" type="button"
-                                id="jobCategory" style="width: 160px;" ngbDropdownToggle>
-                                All Job Category
+                            <button #jobCategory class="text-capitalize btn btn-secondary dropdown-toggle" type="button"
+                                ngbDropdownToggle>
+                                {{cascadeButtonData(selectedJobCategory)}}
+                                <i class="fa fa-chevron-down"></i>
                             </button>
-                            <div class="" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
+                            <div class="p-2" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
                                 <a *ngFor="let category of jobCategories" class="dropdown-item"
-                                    (click)="filter(category, 'jobCategory')" href="javascript:void(0)">{{category}}</a>
+                                    (click)="selectedJobCategory = category;filter()">{{category}}</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 p-3">
+                    <div class="col-lg-3 p-3">
                         <div class="" ngbDropdown>
-                            <button class="text-capitalize btn btn-secondary dropdown-toggle" type="button" id="jobType"
-                                style="width: 160px;" ngbDropdownToggle>
-                                All Job Type
+                            <button #jobType class="text-capitalize btn btn-secondary dropdown-toggle" type="button"
+                                ngbDropdownToggle>
+                                {{cascadeButtonData(selectedJobType)}}
+                                <i class="fa fa-chevron-down"></i>
                             </button>
-                            <div class="" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
-                                <a *ngFor="let type of jobTypes" class="dropdown-item" (click)="filter(type, 'type')"
-                                    href="javascript:void(0)">{{type}}</a>
+                            <div class="p-2" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
+                                <a *ngFor="let type of jobTypes" class="dropdown-item"
+                                    (click)="selectedJobType = type; filter()">{{type}}</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 p-3">
+                    <div class="col-lg-3 p-3">
                         <div class="" ngbDropdown>
-                            <button class="text-capitalize btn btn-secondary dropdown-toggle" type="button"
-                                id="jobLocation" style="width: 160px;" ngbDropdownToggle>
-                                All Job Location
+                            <button #jobLocation class="text-capitalize btn btn-secondary dropdown-toggle" type="button"
+                                ngbDropdownToggle>
+                                {{cascadeButtonData(selectedJobLocation)}}
+                                <i class="fa fa-chevron-down"></i>
                             </button>
-                            <div class="" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
+                            <div class="p-2" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
                                 <a *ngFor="let location of jobLocations" class="dropdown-item"
-                                    (click)="filter(location, 'location')" href="javascript:void(0)">{{location}}</a>
+                                    (click)="selectedJobLocation = location; filter()">{{location}}</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 pt-2">
+                        <button class="btn btn-icon btn-3 btn-primary" (click)="clearSearch()" type="button">
+                            <span class="btn-inner--icon"><i class="fa fa-times"></i></span>
+                            <span class="btn-inner--text">Clear</span>
+                        </button>
                     </div>
                 </div>
             </div>
