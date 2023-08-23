@@ -1,5 +1,14 @@
 .nc-nav-container {
-    max-width: initial !important;
+    height: 35px;
+}
+
+.headroom--not-top {
+    background-color: white !important;
+    padding: 20px;
+}
+
+.headroom--pinned {
+    background-color: #ffffffc7  !important;
 }
 
 .navbar-nav .nav-item {
@@ -22,21 +31,21 @@
     border-radius: 5px;
 }
 
-.navbar-brand {
-    font-size: 18px;
-    letter-spacing: 0.2em;
-    font-weight: bolder !important;
-    color: white;
-    font-family: 'Poiret One', sans-serif;
+.navbar-brand img {
+    height: 100px;
 }
 
 .nav-link i:not(.fa) {
     left: 5px !important;
 }
 
+.nav-link {
+    color: #1e3c7a !important;
+}
+
 .nav-link-inner--text {
-    left: px;
     position: relative;
+
 }
 
 
@@ -44,6 +53,7 @@
     .ns-d-sm-none {
         display: none !important;
     }
+
     .nav-link-inner--text {
         left: 10px;
         position: relative;

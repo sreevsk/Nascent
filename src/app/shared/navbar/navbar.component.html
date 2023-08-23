@@ -1,11 +1,12 @@
 <nav id="navbar-main"
   class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
-  <div class="container">
+  <div class="container nc-nav-container">
+    <!-- <a class="navbar-brand mr-lg-5" href="#/home"><img _ngcontent-c1="" src="./assets/img/brand/argon-white.png"></a> -->
     <a class="navbar-brand mr-lg-5" [routerLink]="['/home']">
-      Nascent Technologies
+      <img _ngcontent-c1="" src="./assets/img/brand/NascentLogoAI-02.png">
     </a>
-    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
-      [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+    <button class="navbar-toggler" type="button" (click)="toggleMenu($event)" [attr.aria-expanded]="!isCollapsed"
+      aria-controls="navbar_global">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse ml-5" id="navbar_global" [ngbCollapse]="isCollapsed">
@@ -17,7 +18,7 @@
             </a>
           </div>
           <div class="col-5 collapse-close">
-            <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
+            <button type="button" class="navbar-toggler" (click)="toggleMenu($event)"
               [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
               <span></span>
               <span></span>
@@ -47,7 +48,8 @@
           <div class="dropdown-menu p-0">
             <a [routerLink]="['/it-consulting']" routerLinkActive="active-link"
               class="p-3 shadow-lg--hover dropdown-item">IT Consulting Services</a>
-            <a [routerLink]="['/it-project']" routerLinkActive="active-link" class="p-3 shadow-lg--hover dropdown-item">IT
+            <a [routerLink]="['/it-project']" routerLinkActive="active-link"
+              class="p-3 shadow-lg--hover dropdown-item">IT
               Project Services</a>
             <a [routerLink]="['/gis-services']" routerLinkActive="active-link"
               class="p-3 shadow-lg--hover dropdown-item">GIS Services</a>
@@ -94,7 +96,8 @@
           <div class="dropdown-menu p-0">
             <a [routerLink]="['/our-portfolio']" routerLinkActive="active-link"
               class="p-3 shadow-lg--hover dropdown-item">Our Portfolio</a>
-            <a [routerLink]="['/our-jobs']" routerLinkActive="active-link" class="p-3 shadow-lg--hover dropdown-item">Our
+            <a [routerLink]="['/our-jobs']" routerLinkActive="active-link"
+              class="p-3 shadow-lg--hover dropdown-item">Our
               Jobs</a>
           </div>
         </li>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import data from '@assets/properties/home-data.json';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   focus: any;
   focus1: any;
+  services = data['services-section']['services'];
+  supports_section = data['supports-section'];
 
   constructor() { }
 

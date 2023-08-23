@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import data from '@assets/properties/it-consulting-data.json';
 
 @Component({
   selector: 'app-it-consulting',
@@ -6,10 +7,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./it-consulting.component.scss']
 })
 export class ItConsultingComponent implements OnInit {
+  description: string = data['description'];
+  services = data['services'];
+  customArray: number[] = [];
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
+    this.generateCustomArray(this.services.length / 2, 2);
   }
 
+  ngOnInit(): void {
+
+  }
+
+  generateCustomArray(length: number, increment: number): void {
+    for (let i = 0; i < length; i++) {
+      this.customArray.push(i * increment);
+    }
+  }
 }

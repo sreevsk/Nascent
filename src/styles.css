@@ -29,3 +29,16 @@ body {
     display: inline;
     margin-top: -2px;
 }
+
+
+@media (min-width: 400px) and (max-width: 950px) {
+    .header-icon-div {
+        padding-bottom: 4rem !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-icon-div {
+        padding-bottom: 8rem !important;
+    }
+}

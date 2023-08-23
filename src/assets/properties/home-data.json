@@ -1,0 +1,43 @@
+{
+    "services-section": {
+        "services": [
+            {
+                "iconName": "fa fa-cogs",
+                "title": "Project Implementation services",
+                "description": "We assemble a team of multi-skilled consultants, to serve either in a consulting role or work as a fully integrated part of your business. Our teams are managed through SLAs and KPIs to ensure the highest degree of excellence throughout your project."
+            },
+            {
+                "iconName": "fa fa-puzzle-piece",
+                "title": "Customized services",
+                "description": "Our team of experts commit to building the solutions you require, on time and within budget. We perform this service through our global network of delivery centers & centers of excellence engineers, to serve either in a consulting role or work as a fully integrated part of your business."
+            },
+            {
+                "iconName": "fa fa-desktop",
+                "title": "Project Migration Services",
+                "description": "Our Migration Services provide you the expertise to reduce the time to market and reap the benefits sooner of your new or upgraded platform. We’ll bring our expertise and experience to make sure the risk is minimized and the project goes as smoothly as possible."
+            },
+            {
+                "iconName": "fa fa-desktop",
+                "title": "IT administration services",
+                "description": "Our IT Administration service can take away all of the hassle and ensure that your IT systems are running smoothly and efficiently on your behalf. We can perform scheduled health checks on your servers and other hardware to reduce the potential for breakdown."
+            }
+        ]
+    },
+    "supports-section": {
+        "description": "An activity required for successful execution of a product or program or process is known as Support service. The support services are managed by a separate department. It is extremely important for any organization to have good support services to succeed in their business. Support services are important for the immediate relief of the customers and the clients. Support services are not just limited to phone calls nowadays email, chat, web forms, and social communications, as well as self-service support sites.",
+        "support-items": [
+            {
+                "iconName": "ni ni-cloud-download-95",
+                "title": "Support for Cloud"
+            },
+            {
+                "iconName": "ni ni-money-coins",
+                "title": "Support for Server and Networking"
+            },
+            {
+                "iconName": "ni ni-folder-17",
+                "title": "Super for Data Center"
+            }
+        ]
+    }
+}

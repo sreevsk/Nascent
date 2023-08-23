@@ -8,15 +8,11 @@
 }
 
 
-@media screen and (max-width: 950px) {
+@media (min-width: 400px) and (max-width: 950px) {
     #resume {
         padding-top: 10px;
         padding-left: 0px !important;
     }
 
-    .header-icon-div {
-        padding-bottom: 4rem !important;
-    }
-
-    /* Other styles specific for small screens */
 }
+

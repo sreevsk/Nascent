@@ -15,6 +15,11 @@ export class NavbarComponent implements OnInit {
     constructor(public location: Location, private router: Router) {
     }
 
+    toggleMenu(event: Event){
+        this.isCollapsed = !this.isCollapsed;
+        event.stopPropagation();
+    }
+
     ngOnInit() {
       this.router.events.subscribe((event) => {
         this.isCollapsed = true;
@@ -32,25 +37,5 @@ export class NavbarComponent implements OnInit {
      this.location.subscribe((ev:PopStateEvent) => {
          this.lastPoppedUrl = ev.url;
      });
-    }
-
-    isHome() {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-
-        if( titlee === '#/home' ) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
-    isDocumentation() {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-        if( titlee === '#/documentation' ) {
-            return true;
-        }
-        else {
-            return false;
-        }
     }
 }
