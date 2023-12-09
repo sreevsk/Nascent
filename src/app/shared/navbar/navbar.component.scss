@@ -8,7 +8,7 @@
 }
 
 .headroom--pinned {
-    background-color: #ffffffc7  !important;
+    background-color: #ffffffc7 !important;
 }
 
 .navbar-nav .nav-item {
@@ -57,5 +57,10 @@
     .nav-link-inner--text {
         left: 10px;
         position: relative;
+    }
+
+    .nc-nav-container {
+        height: 70px;
+        margin-top: -25px;
     }
 }
