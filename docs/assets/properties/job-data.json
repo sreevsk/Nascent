@@ -858,6 +858,168 @@
                     ]
                 }
             }
+        },
+         {
+      "title": "Automation Testers",
+      "jobCategory": "Software",
+      "type": "Full Time",
+      "location": "Austin",
+      "available": true,
+      "details": {
+        "jobId": " 2022-0803-21",
+        "jobTitle": "Automation Testers",
+        "jobLocation": "Austin",
+        "jobTravelLocations": "",
+        "noOfPositions": " 1",
+        "Employment Type": " C2H",
+        "candidateConstraints": "",
+        "duration": " Long Term",
+        "noOfLayers": " 0",
+        "workEligibility": " All Work Authorizations are Permitted",
+        "keyTechnology": " Python, Java, .NET, Node, AWS, Cognos, Tableau, CICD",
+        "jobResponsibilities": {
+          "notes": "",
+          "list": [
+            {
+              "notes": "",
+              "list": [
+                "Create, enhance, debug, and run test cases. Identify test cases for automation from existing test case documentation. Create new test cases.",
+                "Apply, design and develop automated testing strategies and build automated testing frameworks.",
+                "Configure test environment for performing tests. Develop and execute test automation using Data driven framework or Hybrid driven framework with Page object model using JAVA, Javascript, SQL, Gherkin languages. Use testing tools like Cucumber, Serenity for behavior driven deployment with Selenium, Apache MAVEN as build tool, GIT and Jenkins for continuous integration.",
+                "Troubleshoot automation software and finalize system procedures. Monitor defect management process, and review software bug reports. ",
+                "Conduct smoke, sanity, integration or regression tests. Summarize test results and create reports."
+              ]
+            }
+          ]
+        },
+        "skillsAndExperienceRequired": {
+          "notes": "",
+          "list": [
+            {
+              "notes": "",
+              "list": [
+                "Must have Master's  degree or its foreign equivalent in Computer Science, Information Systems, Information Technology or a related field.",
+                "Education must include coursework in java programming, java applications, software quality assurance and test automation etc. Job at Austin, TX, and other unanticipated client locations across the U.S.",
+                "Employer will accept any suitable combination of education, training, and/or experience."
+              ]
+            },
+            {
+              "notes": "",
+              "list": [
+                "Mail resume to Nascent Technologies, Inc., 5900 Balcones Dr, Suite 5345, Austin, TX 78731"
+              ]
+            }
+          ]
         }
+      }
+    },
+    {
+      "title": "Network Engineers",
+      "jobCategory": "Software",
+      "type": "Full Time",
+      "location": "Austin",
+      "available": true,
+      "details": {
+        "jobId": " 2022-0803-22",
+        "jobTitle": " AWS Application Architect / Lead Engineer",
+        "jobLocation": " Morris Plains, NJ (remote to start)",
+        "jobTravelLocations": "",
+        "noOfPositions": " 1",
+        "Employment Type": " C2H",
+        "candidateConstraints": "",
+        "duration": " Long Term",
+        "noOfLayers": " 0",
+        "workEligibility": " All Work Authorizations are Permitted",
+        "keyTechnology": " Python, Java, .NET, Node, AWS, Cognos, Tableau, CICD",
+        "jobResponsibilities": {
+          "notes": "",
+          "list": [
+            {
+              "notes": "",
+              "list": [
+                "Plan, install, configure, maintain, support and optimize all wide area network connections, data center networks, local area networks, associated software, and communication lines.",
+                "Troubleshoot the complex network issues involving various factors like major incident tickets and requests.",
+                "Manage network infrastructure, including firewalls, routers, switches, and load balancing technology.",
+                "Configure the Cisco ACI, NxOS and IOS, Tiered Domains, QoS, OSPF, BGP, and VLAN trunking.",
+                "Configure DNS Server, DNS Entries, DNS and DHCP maintenance and support.",
+                "Knowledge of IP addressing, subnet masking, and routing protocols, such as OSPF, BGP and static routing. Plan and implement any improvement, modification, or replacement of network infrastructure components."
+              ]
+            }
+          ]
+        },
+        "skillsAndExperienceRequired": {
+          "notes": "",
+          "list": [
+            {
+              "notes": "",
+              "list": [
+                "Must have Master's  degree or its foreign equivalent in Digital Sciences, Computer Science, Information Systems or a related field and 12 months experience in job offered or in network field.",
+                "Experience must include working on managing data center networks, network infrastructure, firewalls, routers, switches, and using QoS, OSPF, BGP, and VLAN for configuration.",
+                "Job at Austin, TX, and other unanticipated client locations across the U.S. Employer will accept any suitable combination of education, training, and/or experience."
+              ]
+            },
+            {
+              "notes": "",
+              "list": [
+                "Mail resume to Nascent Technologies, Inc., 5900 Balcones Dr, Suite 5345, Austin, TX 78731"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Senior Software Development Engineers in Test (SDET)",
+      "jobCategory": "Software",
+      "type": "Full Time",
+      "location": "Morris Plains",
+      "available": true,
+      "details": {
+        "jobId": " 2022-0803-23",
+        "jobTitle": " AWS Application Architect / Lead Engineer",
+        "jobLocation": " Morris Plains, NJ (remote to start)",
+        "jobTravelLocations": "",
+        "noOfPositions": " 1",
+        "Employment Type": " C2H",
+        "candidateConstraints": "",
+        "duration": " Long Term",
+        "noOfLayers": " 0",
+        "workEligibility": " All Work Authorizations are Permitted",
+        "keyTechnology": " Python, Java, .NET, Node, AWS, Cognos, Tableau, CICD",
+        "jobResponsibilities": {
+          "notes": "",
+          "list": [
+            {
+              "notes": "",
+              "list": [
+                "Automate and maintain tests scripts using Python scripting which involves testing multiple OS (Web UI, Android, and IOS).",
+                "Develop library files for new feature automation.",
+                "Develop API tests for web services REST.",
+                "Develop and maintain reports of all automation issues and test results.",
+                "Monitor project progress and quickly addressed problems to complete testing on schedule (JIRA board, Confluence)."
+              ]
+            }
+          ]
+        },
+        "skillsAndExperienceRequired": {
+          "notes": "",
+          "list": [
+            {
+              "notes": "",
+              "list": [
+                "Must have Bachelor's  degree or its foreign equivalent in Computer Science, Information Systems, Electronics Engineering, Information Technology or a related field and 5 months experience in job offered or in software testing or a related field.",
+                "Job at Austin, TX, and other unanticipated client locations across the U.S. Employer will accept any suitable combination of education, training, and/or experience."
+              ]
+            },
+            {
+              "notes": "",
+              "list": [
+                "Mail resume to Nascent Technologies, Inc., 5900 Balcones Dr, Suite 5345, Austin, TX 78731"
+              ]
+            }
+          ]
+        }
+      }
+    }
     ]
 }
