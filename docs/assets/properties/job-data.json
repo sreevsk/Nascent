@@ -1,15 +1,6 @@
 {
   "nameSet": {
-    "jobTitle": "Job Title",
-    "jobId": "Job ID",
-    "jobLocation": "Job Location",
-    "jobTravelLocations": "Job Travel Location(s)",
-    "noOfPositions": "# Positions",
-    "candidateConstraints": "Candidate Constraints",
-    "duration": "Duration",
-    "noOfLayers": "# of Layers",
-    "workEligibility": "Work Eligibility",
-    "keyTechnology": "Key Technology",
+   
     "jobResponsibilities": {
       "title": "Job Responsibilities",
       "type": "List"
